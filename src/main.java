@@ -51,7 +51,7 @@ public class main {
 
 		System.out.println(i);*/
 
-		QueryProcessor queryProcessor = new QueryProcessor("Laptops for gaming.");
+		QueryProcessor queryProcessor = new QueryProcessor("laptops with price higher than 600.");
 		queryProcessor.parseQuery();
 	}
 }

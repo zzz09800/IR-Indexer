@@ -22,6 +22,8 @@ public class SpecElement {
 	int screes_resolution_level;
 	double screen_size;
 
+	double computed_score;
+
 	public SpecElement()
 	{
 		this.brand="";

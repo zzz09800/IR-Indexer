@@ -142,4 +142,34 @@ public class JobRunner {
 
 		return false;
 	}
+
+	public int wordLocate(ArrayList<QueryTokens> queryTokens, String word)
+	{
+		int res=-1;
+		int i;
+		for(i=0;i<queryTokens.size();i++)
+		{
+			if(queryTokens.get(i).content.equals(word))
+				return i;
+		}
+
+		return res;
+	}
+
+	public HashSet<String> extractJJs(ArrayList<QueryTokens> queryTokens, int index)
+	{
+		int i;
+		HashSet<String> res = new HashSet<String>();
+
+		if(index==0)
+			return res;
+
+		for(i=index-1;!queryTokens.get(i).posTag.startsWith("NN")&&i>=0;i--)
+		{
+			if(queryTokens.get(i).posTag.startsWith("JJ"))
+				res.add(queryTokens.get(i).content);
+		}
+
+		return res;
+	}
 }

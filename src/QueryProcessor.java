@@ -1,11 +1,9 @@
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.parser.dvparser.DVModelReranker;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import edu.stanford.nlp.process.Stemmer;
 import edu.stanford.nlp.simple.Document;
-import edu.stanford.nlp.simple.Sentence;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * Created by andrew on 4/23/17.
@@ -22,12 +20,19 @@ public class QueryProcessor {
 	float target_Resolution_range_max;
 	float target_Price_range_min;
 	float target_Price_range_max;
-	float taeget_Screes_size_min;
-	float taeget_Screes_size_max;
+	float target_Screes_size_min;
+	float target_Screes_size_max;
+	boolean target_SSD_filter;
+	int target_Price_sort_seq;
+	float price_limit_min;
+	float price_limit_max;
+
+	String stemmedQuery;
+	ArrayList<QueryTokens> queryTokens;
 
 	public QueryProcessor(String query)
 	{
-		this.inputQuery=query;
+		this.inputQuery=query.toLowerCase().replaceAll("\\.","").replaceAll("  "," ");
 		this.target_Processor_range_min=0;
 		this.target_Processor_range_max=6;
 		this.target_Graphics_range_min=0;
@@ -38,16 +43,39 @@ public class QueryProcessor {
 		this.target_Resolution_range_max=6;
 		this.target_Price_range_min=0;
 		this.target_Price_range_max=99999;
-		this.taeget_Screes_size_min=0;
-		this.taeget_Screes_size_max=9999;
+		this.target_Screes_size_min =0;
+		this.target_Screes_size_max =9999;
+		this.target_SSD_filter=false;
+		this.target_Price_sort_seq=1; //going upwards
+		this.price_limit_min=0;
+		this.price_limit_max=9999;
+
+		this.stemmedQuery="";
+		this.queryTokens = new ArrayList<QueryTokens>();
 	}
 
+	public void clearFilters()
+	{
+		this.target_Processor_range_min=0;
+		this.target_Processor_range_max=6;
+		this.target_Graphics_range_min=0;
+		this.target_Graphics_range_max=6;
+		this.target_Memory_rank_range_min=0;
+		this.target_Memory_rank_range_max=6;
+		this.target_Resolution_range_min=0;
+		this.target_Resolution_range_max=6;
+		this.target_Price_range_min=0;
+		this.target_Price_range_max=99999;
+		this.target_Screes_size_min =0;
+		this.target_Screes_size_max =9999;
+		this.target_SSD_filter=false;
+	}
 
 	public void parseQuery()
 	{
 		//Built-in purpose-driven matches
 		Stemmer stemmer = new Stemmer();
-		String stemmedQuery=stemmer.stem(inputQuery).toLowerCase();
+		this.stemmedQuery=stemmer.stem(inputQuery);
 		//Rough Estimates
 		if(stemmedQuery.contains("game"))
 		{
@@ -61,32 +89,115 @@ public class QueryProcessor {
 			this.target_Graphics_range_min=4;
 			this.target_Memory_rank_range_min=3;
 			this.target_Resolution_range_min=1600;
-			this.taeget_Screes_size_min=13;
-		}
-		if(stemmedQuery.contains("expensive"))
-		{
-			this.target_Price_range_min=3;
-		}
-		else if(stemmedQuery.contains("cheap"))
-		{
-			this.target_Price_range_max=2;
+			this.target_Screes_size_min =13;
 		}
 
 		//Specific Params
 		Document doc = new Document(stemmedQuery);
-		String[] tmp=stemmedQuery.replaceAll("\\.","").split(" ");
 
-		ArrayList<QueryTokens> queryTokens= new ArrayList<QueryTokens>();
 		int i;
 
-		for(i=0;i<tmp.length;i++)
+		for(i=0;i<doc.sentence(0).lemmas().size();i++)
 		{
 			QueryTokens constructToken = new QueryTokens();
 			constructToken.position=i;
-			constructToken.content=tmp[i];
+			constructToken.content=doc.sentence(0).lemma(i);
 			constructToken.posTag=doc.sentence(0).posTag(i);
-			queryTokens.add(constructToken);
+			this.queryTokens.add(constructToken);
 		}
 
+		JobRunner runner = new JobRunner();
+		int rootNodeIndex = runner.wordLocate(this.queryTokens,"laptop");
+
+		if(rootNodeIndex==-1){
+			clearFilters();
+			return;
+		}
+
+		HashSet<String> prefixAdjs = runner.extractJJs(this.queryTokens,rootNodeIndex);
+		if(prefixAdjs.contains("expensive"))
+		{
+			this.target_Price_range_min=3;
+			this.target_Price_sort_seq=1;
+		}
+		else if(prefixAdjs.contains("cheap"))
+		{
+			this.target_Price_range_max=3;
+			this.target_Price_sort_seq=-1;
+		}
+
+		if(prefixAdjs.contains("fast"))
+		{
+			this.target_Processor_range_min=4;
+			this.target_Memory_rank_range_min=2;
+			this.target_SSD_filter=true;
+		}
+
+		//Extract Spec requirements
+		int processorNodeIndex = runner.wordLocate(this.queryTokens,"cpu");
+		if(processorNodeIndex==-1)
+			processorNodeIndex = runner.wordLocate(this.queryTokens,"processor");
+		if(processorNodeIndex!=-1){
+			HashSet<String> processorAdjs = runner.extractJJs(this.queryTokens,processorNodeIndex);
+			if(processorAdjs.contains("fast"))
+			{
+				this.target_Processor_range_min=4;
+			}
+		}
+
+		int memoryNodeIndex = runner.wordLocate(this.queryTokens,"memory");
+		if(memoryNodeIndex==-1)
+			memoryNodeIndex = runner.wordLocate(this.queryTokens,"ram");
+		if(memoryNodeIndex!=-1) {
+			HashSet<String> memoryAdjs = runner.extractJJs(this.queryTokens, memoryNodeIndex);
+			if (memoryAdjs.contains("large")) {
+				this.target_Processor_range_min = 3;
+			} else if (memoryAdjs.contains("small")) {
+				this.target_Processor_range_max = 2;
+			}
+		}
+
+		this.setPriceFilter();
 	}
+
+	public Boolean setPriceFilter()
+	{
+		int i;
+		Boolean setfalg=false;
+		for(i=0;i<this.queryTokens.size()-1;i++)
+		{
+			if(this.queryTokens.get(i).content.equals("higher")&&this.queryTokens.get(i+1).content.equals("than")&&this.queryTokens.get(i+2).posTag.equals("CD"))
+			{
+				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+2).content);
+				setfalg=true;
+			}
+			if(this.queryTokens.get(i).content.equals("above")&&this.queryTokens.get(i+1).posTag.equals("CD"))
+			{
+				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+1).content);
+				setfalg=true;
+			}
+
+			if(this.queryTokens.get(i).content.equals("under")&&this.queryTokens.get(i+1).posTag.equals("CD"))
+			{
+				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+1).content);
+				setfalg=true;
+			}
+			if(this.queryTokens.get(i).content.equals("below")&&this.queryTokens.get(i+1).posTag.equals("CD"))
+			{
+				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+1).content);
+				setfalg=true;
+			}
+
+			if(this.queryTokens.get(i).content.equals("between")&&this.queryTokens.get(i+1).posTag.equals("CD")&&this.queryTokens.get(i+2).posTag.equals("IN")&&this.queryTokens.get(i+3).posTag.equals("CD"))
+			{
+				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+2).content);
+				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+1).content);
+				setfalg=true;
+			}
+		}
+
+		return setfalg;
+	}
+
+
 }
