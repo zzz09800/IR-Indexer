@@ -35,13 +35,13 @@ public class QueryProcessor {
 	{
 		this.inputQuery=query.toLowerCase().replaceAll("\\.","").replaceAll("  "," ");
 		this.target_Processor_range_min=0;
-		this.target_Processor_range_max=6;
+		this.target_Processor_range_max=999;
 		this.target_Graphics_range_min=0;
-		this.target_Graphics_range_max=6;
+		this.target_Graphics_range_max=999;
 		this.target_Memory_rank_range_min=0;
-		this.target_Memory_rank_range_max=6;
+		this.target_Memory_rank_range_max=999;
 		this.target_Resolution_range_min=0;
-		this.target_Resolution_range_max=6;
+		this.target_Resolution_range_max=999;
 
 		this.target_Price_range_min=0;      //in rank
 		this.target_Price_range_max=99999;
@@ -67,7 +67,7 @@ public class QueryProcessor {
 		this.target_Resolution_range_min=0;
 		this.target_Resolution_range_max=6;
 		this.target_Price_range_min=0;
-		this.target_Price_range_max=99999;
+		this.target_Price_range_max=9999;
 		this.target_Screes_size_min=0;
 		this.target_Screes_size_max=9999;
 	}
@@ -218,16 +218,23 @@ public class QueryProcessor {
 			this.target_Price_range_max=9999;
 		}
 
+		int score;
 		for (SpecElement tmp : res)
 		{
 			tmp.computed_score=0;
 			if(tmp.CPU_level>=this.target_Processor_range_min&&tmp.CPU_level<=this.target_Processor_range_max)
-				tmp.computed_score=tmp.computed_score+1;
+			{
+				if(this.target_Processor_range_max==999&&this.target_Processor_range_min!=0)    //only lower limit
+					tmp.computed_score=tmp.computed_score+(tmp.CPU_level-this.target_Processor_range_min)*0.7;
+			}
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 
 			if(tmp.RAM_level>=this.target_Memory_rank_range_min&&tmp.RAM_level<=this.target_Memory_rank_range_max)
-				tmp.computed_score=tmp.computed_score+1;
+			{
+				if(this.target_Memory_rank_range_max==999&&this.target_Memory_rank_range_min!=0)    //only lower limit
+					tmp.computed_score=tmp.computed_score+(tmp.RAM_level-this.target_Memory_rank_range_min)*0.7;
+			}
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 
@@ -242,7 +249,10 @@ public class QueryProcessor {
 				tmp.computed_score=tmp.computed_score-0.5;
 
 			if(tmp.price_level>=this.target_Price_range_min&&tmp.price_level<=this.target_Price_range_max)
-				tmp.computed_score=tmp.computed_score+1;
+			{
+				if(this.target_Price_range_max==9999&&this.target_Price_range_min!=0)    //only lower limit
+					tmp.computed_score=tmp.computed_score+(tmp.price_level-this.target_Price_range_min)*0.7;
+			}
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 

@@ -52,11 +52,11 @@ public class main {
 
 		//System.out.println(i);
 
-		QueryProcessor queryProcessor = new QueryProcessor("fast laptops with high resolution");
+		QueryProcessor queryProcessor = new QueryProcessor("laptops with fast processor and under 1200");
 		queryProcessor.parseQuery();
 		ArrayList<SpecElement> filtered=queryProcessor.filteredSearch(res);
 
-		for(i=0;i<10;i++)
+		for(i=0;i<40;i++)
 		{
 			SpecElement tmp = filtered.get(i);
 			System.out.println(tmp.brand);
