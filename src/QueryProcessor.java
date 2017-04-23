@@ -3,6 +3,7 @@ import edu.stanford.nlp.process.Stemmer;
 import edu.stanford.nlp.simple.Document;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashSet;
 
 /**
@@ -22,10 +23,10 @@ public class QueryProcessor {
 	float target_Price_range_max;
 	float target_Screes_size_min;
 	float target_Screes_size_max;
-	boolean target_SSD_filter;
 	int target_Price_sort_seq;
 	float price_limit_min;
 	float price_limit_max;
+	boolean price_limit_effective=false;
 
 	String stemmedQuery;
 	ArrayList<QueryTokens> queryTokens;
@@ -41,11 +42,12 @@ public class QueryProcessor {
 		this.target_Memory_rank_range_max=6;
 		this.target_Resolution_range_min=0;
 		this.target_Resolution_range_max=6;
-		this.target_Price_range_min=0;
+
+		this.target_Price_range_min=0;      //in rank
 		this.target_Price_range_max=99999;
+
 		this.target_Screes_size_min =0;
 		this.target_Screes_size_max =9999;
-		this.target_SSD_filter=false;
 		this.target_Price_sort_seq=1; //going upwards
 		this.price_limit_min=0;
 		this.price_limit_max=9999;
@@ -66,9 +68,8 @@ public class QueryProcessor {
 		this.target_Resolution_range_max=6;
 		this.target_Price_range_min=0;
 		this.target_Price_range_max=99999;
-		this.target_Screes_size_min =0;
-		this.target_Screes_size_max =9999;
-		this.target_SSD_filter=false;
+		this.target_Screes_size_min=0;
+		this.target_Screes_size_max=9999;
 	}
 
 	public void parseQuery()
@@ -130,7 +131,6 @@ public class QueryProcessor {
 		{
 			this.target_Processor_range_min=4;
 			this.target_Memory_rank_range_min=2;
-			this.target_SSD_filter=true;
 		}
 
 		//Extract Spec requirements
@@ -157,7 +157,17 @@ public class QueryProcessor {
 			}
 		}
 
-		this.setPriceFilter();
+		int resolutionNodeIndex = runner.wordLocate(this.queryTokens,"resolution");
+		if(resolutionNodeIndex!=-1) {
+			HashSet<String> resolutionAdjs = runner.extractJJs(this.queryTokens, memoryNodeIndex);
+			if (resolutionAdjs.contains("high")) {
+				this.target_Resolution_range_min = 3;
+			} else if (resolutionAdjs.contains("low")) {
+				this.target_Resolution_range_min = 3;
+			}
+		}
+
+		this.price_limit_effective=this.setPriceFilter();
 	}
 
 	public Boolean setPriceFilter()
@@ -168,30 +178,30 @@ public class QueryProcessor {
 		{
 			if(this.queryTokens.get(i).content.equals("higher")&&this.queryTokens.get(i+1).content.equals("than")&&this.queryTokens.get(i+2).posTag.equals("CD"))
 			{
-				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+2).content);
+				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+2).content);
 				setfalg=true;
 			}
 			if(this.queryTokens.get(i).content.equals("above")&&this.queryTokens.get(i+1).posTag.equals("CD"))
 			{
-				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+1).content);
+				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+1).content);
 				setfalg=true;
 			}
 
 			if(this.queryTokens.get(i).content.equals("under")&&this.queryTokens.get(i+1).posTag.equals("CD"))
 			{
-				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+1).content);
+				this.price_limit_max=Float.parseFloat(this.queryTokens.get(i+1).content);
 				setfalg=true;
 			}
 			if(this.queryTokens.get(i).content.equals("below")&&this.queryTokens.get(i+1).posTag.equals("CD"))
 			{
-				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+1).content);
+				this.price_limit_max=Float.parseFloat(this.queryTokens.get(i+1).content);
 				setfalg=true;
 			}
 
 			if(this.queryTokens.get(i).content.equals("between")&&this.queryTokens.get(i+1).posTag.equals("CD")&&this.queryTokens.get(i+2).posTag.equals("IN")&&this.queryTokens.get(i+3).posTag.equals("CD"))
 			{
-				this.target_Price_range_max=Float.parseFloat(this.queryTokens.get(i+2).content);
-				this.target_Price_range_min=Float.parseFloat(this.queryTokens.get(i+1).content);
+				this.price_limit_max=Float.parseFloat(this.queryTokens.get(i+2).content);
+				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+1).content);
 				setfalg=true;
 			}
 		}
@@ -199,5 +209,67 @@ public class QueryProcessor {
 		return setfalg;
 	}
 
+	public ArrayList<SpecElement> filteredSearch(HashSet<SpecElement> res)
+	{
+		ArrayList<SpecElement> searchResults = new ArrayList<SpecElement>();
 
+		if(this.price_limit_effective){
+			this.target_Price_range_min=0;
+			this.target_Price_range_max=9999;
+		}
+
+		for (SpecElement tmp : res)
+		{
+			tmp.computed_score=0;
+			if(tmp.CPU_level>=this.target_Processor_range_min&&tmp.CPU_level<=this.target_Processor_range_max)
+				tmp.computed_score=tmp.computed_score+1;
+			else
+				tmp.computed_score=tmp.computed_score-0.5;
+
+			if(tmp.RAM_level>=this.target_Memory_rank_range_min&&tmp.RAM_level<=this.target_Memory_rank_range_max)
+				tmp.computed_score=tmp.computed_score+1;
+			else
+				tmp.computed_score=tmp.computed_score-0.5;
+
+			if(tmp.graphic_level>=this.target_Graphics_range_min&&tmp.graphic_level<=this.target_Graphics_range_max)
+				tmp.computed_score=tmp.computed_score+1;
+			else
+				tmp.computed_score=tmp.computed_score-0.5;
+
+			if(tmp.screes_resolution_level>=this.target_Resolution_range_min&&tmp.screes_resolution_level<=this.target_Resolution_range_max)
+				tmp.computed_score=tmp.computed_score+1;
+			else
+				tmp.computed_score=tmp.computed_score-0.5;
+
+			if(tmp.price_level>=this.target_Price_range_min&&tmp.price_level<=this.target_Price_range_max)
+				tmp.computed_score=tmp.computed_score+1;
+			else
+				tmp.computed_score=tmp.computed_score-0.5;
+
+			if(this.price_limit_effective)
+			{
+				if(tmp.price>=price_limit_min&&tmp.price<=price_limit_max)
+				{
+					searchResults.add(tmp);
+				}
+			}
+			else
+			{
+				searchResults.add(tmp);
+			}
+		}
+
+		searchResults.sort(new Comparator<SpecElement>() {
+			@Override
+			public int compare(SpecElement o1, SpecElement o2) {
+				if(o1.computed_score>o2.computed_score)
+					return -1;
+				if(o1.computed_score<o2.computed_score)
+					return 1;
+				return 0;
+			}
+		});
+
+		return searchResults;
+	}
 }

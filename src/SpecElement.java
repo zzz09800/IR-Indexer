@@ -5,12 +5,14 @@ public class SpecElement {
 	String brand,model;
 	double price;
 	String internal_callsign;
+	int price_level;
 
 	String CPU_model;
 	int CPU_level;  // 0 = unassigned, 1 2 3 4 5 increases
 
 	String RAM_type;
 	int RAM_size;   // in GB
+	int RAM_level;
 
 	String graphic_model;
 	int graphic_level; // 0 = unassigned, 1 2 3 4 5 increases
@@ -36,6 +38,7 @@ public class SpecElement {
 
 		this.RAM_type="";
 		this.RAM_size=0;   // in GB
+		this.RAM_level=0;
 
 		this.graphic_model="";
 		this.graphic_level=0; // 0 = unassigned, 1 2 3 4 5 increases

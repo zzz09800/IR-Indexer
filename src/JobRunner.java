@@ -164,9 +164,9 @@ public class JobRunner {
 		if(index==0)
 			return res;
 
-		for(i=index-1;!queryTokens.get(i).posTag.startsWith("NN")&&i>=0;i--)
+		for(i=index-1;i>=0&&!queryTokens.get(i).posTag.startsWith("NN");i--)
 		{
-			if(queryTokens.get(i).posTag.startsWith("JJ"))
+			if(queryTokens.get(i).posTag.startsWith("JJ")||queryTokens.get(i).posTag.startsWith("RB"))
 				res.add(queryTokens.get(i).content);
 		}
 
