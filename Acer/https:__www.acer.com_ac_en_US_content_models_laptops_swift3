@@ -1,0 +1,1021 @@
+https://www.acer.com/ac/en/US/content/models/laptops/swift3
+
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+ <head> 
+  <base href="https://www.acer.com/ac/"> 
+  <meta name="msapplication-tap-highlight" content="no"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <meta name="msapplication-config" content="none"> 
+  <meta name="robots" content="noydir"> 
+  <meta name="robots" content="noodp"> 
+  <meta name="compareGroup" content="Laptops"> 
+  <meta name="description" content="The full range of Acer Laptops models. Compare features and technical specifications."> 
+  <title>Laptops | View All Our Laptops | Acer Solutions</title> 
+  <link rel="stylesheet" type="text/css" href="//fonts.acer.com/acer-font-foco-425.css"> 
+  <link rel="stylesheet" type="text/css" href="//fonts.acer.com/acer-font-icon.css"> 
+  <link rel="stylesheet" type="text/css" href="//static.acer.com/up/Resource/templateLibraries/Acer/430/css/style40.css"> 
+  <link rel="stylesheet" type="text/css" href="//static.acer.com/up/Resource/templateLibraries/Acer/430/css/jquery.bxslider.css"> 
+  <link rel="stylesheet" type="text/css" href="//static.acer.com/up/Resource/templateLibraries/Acer/430/css/grid.css"> 
+  <link rel="stylesheet" type="text/css" href="//static.acer.com/up/Resource/templateLibraries/Acer/430/css/style.css"> 
+  <link rel="stylesheet" type="text/css" href="//static.acer.com/up/Resource/templateLibraries/Acer/430/css/normalize.css"> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/jquery-1.7.2.min.js"></script> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/jquery-ui-1.10.4.custom.min.js"></script> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/jquery.bxslider.min.js"></script> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/jquery.menu-aim.min.js"></script> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/jquery.mobile.custom-touch.min.js"></script> 
+  <script type="text/javascript" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/scripts/zcommon.min.js"></script> 
+  <script type="text/javascript">
+			jQuery(document).ready(function() {
+				AcerUi.init();
+			});
+     </script> 
+  <script type="text/javascript"> try{pswtb}catch(ex){pswtb={}}if(!pswtb.loader){pswtb.loader={lsc:[],waitLoad:function(){var e= pswtb.loader;if(e.finish){for(var t=0;t<e.lsc.length;t++)e.finish(e.lsc[t].wcid);window .clearInterval(e.waitLoadTimer);e.waitLoadTimer=null}else{if(!e.waitLoadTimer) e.waitLoadTimer= window.setInterval(e.waitLoad,20)}},show:function(e){for(var t=0;t<this.lsc.length;t++)if(this .lsc[t].wcid===e.widgetConfigurationId){this.lsc[t].ops.push(e);return}var n=document .createElement("script");n.type="text/javascript";var r=e.server;n.language="javascript";n.src= (r?(r.match(/\/\//)?"":"//")+r+(r.charAt(r.length-1)==="/"?"":"/"):"//embedded.pricespider.com/") +"WidgetScript.psjs?d=al&wc="+e.widgetConfigurationId;this.lsc.push({wcid:e. widgetConfigurationId,ops:[e]});if(navigator.userAgent.match(/msie [6-7]/i)){document.write('<' +'script type="'+n.type+'" src="'+n.src.replace(/d=al&/i,"")+'"><'+"/script>");this.waitLoad(); return}var i=navigator.userAgent.match(/msie [8-9]/i);n.async=true;if(i)n.onreadystatechange= new Function("if ((/loaded|completed/i).test(this.readyState)) pswtb.loader.finish('"+e. widgetConfigurationId+"');");else n.onload=new Function("pswtb.loader.finish('"+e. widgetConfigurationId+"');");(i?document.getElementsByTagName("head")[0]:document.body) .appendChild(n)}}}</script> 
+ </head> 
+ <body class="l20111107" onload="_onLoadMM('//www.acer.com/ac/en/US/json/content/mm-sitenav',false); "> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KR777P" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KR777P');</script> 
+  <!-- End Google Tag Manager --> 
+  <div style="display:none" class="localization" data-service="//www.acer.com" data-acnt="https://www.acer.com/hub" data-mm-res="//static.acer.com/" data-sso="https://account.acer.com" data-countryisocode="US" data-languageisocode="en"></div> 
+  <div id="midLandFixer"></div> 
+  <div id="viewportFixer"></div> 
+  <div class="zh-searchCategory searchCategory"> 
+   <span data-cat="product">in Products</span> 
+   <span data-cat="support">in Support</span> 
+   <span data-cat="press">in Press</span> 
+  </div> 
+  <div class="newStyle"> 
+   <!--googleoff: index--> 
+   <header> 
+    <div class="header zh-header"> 
+     <div class="container max-width-d"> 
+      <div class="row gutter"> 
+       <div class="col gutter contHeader"> 
+        <div itemscope itemtype="//schema.org/Organization" class="menuBar"> 
+         <a class="logo zh-logo" itemprop="url" href="en/US/content/home" title="Acer"> <img itemprop="logo" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/logo.svg" alt="The Acer Logo" title="The Acer Logo"> </a> 
+         <div class="contMobileMenu"> 
+          <div class="zh-toggleMobileMenu mobileMenu"> 
+           <div class="mobileMenuBar"></div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="zh-sideMenu navigation scrollbarCustom"> 
+         <div class="bgSearchBox"> 
+          <div class="zh-searchBox searchBox"> 
+           <input autofocus title="Search" type="text" placeholder="Search..." class="text-s zh-searchFieldGsaTop zh-searchAutocomplete" autocomplete="off" rel="en/US/search?q={0}"> 
+           <i class="text-m zh-closeSearch icon icon-ai-close"></i> 
+          </div> 
+         </div> 
+         <div class="contSuggestionTop zh-contSuggestionDisplay"> 
+          <div class="container max-width-d"> 
+           <div class="row gutter"> 
+            <div class="col a-12 zh-searchSuggestionGsaTop"> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="menuLeft"> 
+          <ul> 
+           <li><a aria-haspopup="true" href="https://us-store.acer.com/?utm_source=us.acer.com&amp;utm_medium=referral&amp;utm_campaign=Ongoing&amp;utm_content=Nav" class="zh-lnkMenu  text-s" title="Store" target="_blank"> Store </a> </li> 
+           <li><a aria-haspopup="true" href="" class="zh-lnkMenu zh-withMenu text-s" title="For Home"> For Home <i class="icon icon-ai-arrow-down"></i> <i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i> </a> 
+            <div class="row gutter zh-mega mega"> 
+             <div class="container max-width-d"> 
+              <div class="col gutter a-12 c-3 d-2 d-offset-1 zh-linkSubNav subNav"> 
+               <nav> 
+                <ul class="zh-subNavMenu"> 
+                 <li><a data-id="234073.1383" class="zh-hoverEvent hoverEvent text-xs" title="Laptops" href="en/US/content/group/laptops">Laptops<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.152" class="zh-hoverEvent hoverEvent text-xs" title="Desktops" href="en/US/content/group/desktops">Desktops<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.438" class="zh-hoverEvent hoverEvent text-xs" title="Tablets" href="en/US/content/group/tablets">Tablets<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.1061" class="zh-hoverEvent hoverEvent text-xs" title="Smartphones" href="en/US/content/group/smartphones">Smartphones<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.155" class="zh-hoverEvent hoverEvent text-xs" title="Monitors" href="en/US/content/group/monitors">Monitors<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.164" class="zh-hoverEvent hoverEvent text-xs" title="Projectors" href="en/US/content/group/projectors">Projectors<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.1440" class="zh-hoverEvent hoverEvent text-xs" title="Wearables" href="en/US/content/group/wearables">Wearables<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234073.573" class="zh-hoverEvent hoverEvent text-xs" title="Accessories" href="en/US/content/group/options">Accessories<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="217483" class="zh-hoverEvent hoverEvent text-xs" title="Gaming" href="en/US/content/acer-gaming">Gaming<i class="icon icon-ai-arrow-right"></i></a></li> 
+                </ul> 
+               </nav> 
+              </div> 
+              <div class="col a-12 c-9 d-8 contSubNav zh-subNav"> 
+               <div class="row"> 
+                <div class="col a-12 c-7 contOne"> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+                <div class="col a-12 c-5 contTwo"> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Predator" class=" align-center" href="en/US/content/predator-home"> <img src="//static.acer.com/up/Resource/Acer/Header/Consumer/20151229/Promotion_Predator.svg" alt="Predator" title="Predator"> <span>Predator</span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Software" class=" align-center" href="en/US/content/software"> <img src="//static.acer.com/up/Resource/Acer/Header/Consumer/20151229/Promotion_Software.svg" alt="Software" title="Software"> <span>Software</span> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="col a-12"></div> 
+             </div> 
+            </div> </li> 
+           <li><a aria-haspopup="true" href="" class="zh-lnkMenu zh-withMenu text-s" title="For Work"> For Work <i class="icon icon-ai-arrow-down"></i> <i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i> </a> 
+            <div class="row gutter zh-mega mega"> 
+             <div class="container max-width-d"> 
+              <div class="col gutter a-12 c-3 d-2 d-offset-1 zh-linkSubNav subNav"> 
+               <nav> 
+                <ul class="zh-subNavMenu"> 
+                 <li><a data-id="234131.1383" class="zh-hoverEvent hoverEvent text-xs" title="Laptops" href="en/US/content/professional-group/laptops">Laptops<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.152" class="zh-hoverEvent hoverEvent text-xs" title="Desktops" href="en/US/content/professional-group/desktops">Desktops<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.438" class="zh-hoverEvent hoverEvent text-xs" title="Tablets" href="en/US/content/professional-group/tablets">Tablets<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.1326" class="zh-hoverEvent hoverEvent text-xs" title="Workstations" href="en/US/content/professional-group/workstations">Workstations<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.1061" class="zh-hoverEvent hoverEvent text-xs" title="Smartphones" href="en/US/content/professional-group/smartphones">Smartphones<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.155" class="zh-hoverEvent hoverEvent text-xs" title="Monitors" href="en/US/content/professional-group/monitors">Monitors<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="234131.164" class="zh-hoverEvent hoverEvent text-xs" title="Projectors" href="en/US/content/professional-group/projectors">Projectors<i class="icon icon-ai-arrow-right"></i></a></li> 
+                 <li><a data-id="233638" class="zh-hoverEvent hoverEvent text-xs" title="Vertical and Solution" href="en/US/content/professional-home">Vertical and Solution<i class="icon icon-ai-arrow-right"></i></a></li> 
+                </ul> 
+               </nav> 
+              </div> 
+              <div class="col a-12 c-9 d-8 contSubNav zh-subNav"> 
+               <div class="row"> 
+                <div class="col a-12 c-7 contOne"> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="" class="align-center" href="#"> <img src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/trans.png" alt="Empty Filler Space"><span></span> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+                <div class="col a-12 c-5 contTwo"> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Education" class=" align-center" href="en/US/content/professional-education-home"> <img src="//static.acer.com/up/Resource/Acer/Header/Professional/20160112/Promotion_EMEA_Education.jpg" alt="Education" title="Education"> <span>Education</span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Chrome for Work" class=" align-center" href="en/US/content/professional-chrome-for-work-home"> <img src="//static.acer.com/up/Resource/Acer/Images/US/Chrome For Work/20160602/Acer_Logo-chrome-for-work.gif" alt="Chrome for Work" title="Chrome for Work"> <span>Chrome for Work</span> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="col a-12"></div> 
+             </div> 
+            </div> </li> 
+           <li><a aria-haspopup="true" href="en/US/content/byoc-home" class="zh-lnkMenu zh-withMenu text-s" title="IoT"> IoT <i class="icon icon-ai-arrow-down"></i> <i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i> </a> 
+            <div class="row gutter zh-mega mega"> 
+             <div class="container max-width-d"> 
+              <div class="col gutter a-12 c-3 d-2 d-offset-1 zh-linkSubNav subNav"> 
+               <nav> 
+                <ul class="zh-subNavMenu"> 
+                 <li><a class=" text-xs" title="Build Your Own Cloud" href="en/US/content/byoc-home">Build Your Own Cloud</a></li> 
+                 <li><a class=" text-xs" title="Enterprise Communication" href="en/US/content/professional-abpbx-home">Enterprise Communication</a></li> 
+                </ul> 
+               </nav> 
+              </div> 
+              <div class="col a-12 c-9 d-8 contSubNav zh-subNav"> 
+               <div class="row"> 
+                <div class="col a-12 c-7 contOne"> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="Build Your Own Cloud" class=" align-center bgHover" href="en/US/content/byoc-home"> <img src="//static.acer.com/up/Resource/Acer/Header/Consumer/20160530/Promotion_BYOC_Lifestyle.png" alt="Build Your Own Cloud" title="Build Your Own Cloud"><span>Build Your Own Cloud</span> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="Enterprise Communication" class=" align-center bgHover" href="en/US/content/professional-abpbx-home"> <img src="//static.acer.com/up/Resource/Acer/BYOC/20160128/Promotion_abPBX_1.jpg" alt="Enterprise Communication" title="Enterprise Communication"><span>Enterprise Communication</span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col a-12 c-6"> 
+                   <a title="empty" class="align-center" href="#"> </a> 
+                  </div> 
+                  <div class="col a-12 c-6"> 
+                   <a title="empty" class="align-center" href="#"> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="col a-12"></div> 
+             </div> 
+            </div> </li> 
+           <li><a aria-haspopup="true" href="" class="zh-lnkMenu zh-withMenu text-s" title="Support"> Support <i class="icon icon-ai-arrow-down"></i> <i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i> </a> 
+            <div class="row gutter zh-mega mega"> 
+             <div class="container max-width-d"> 
+              <div class="col gutter a-12 c-3 d-2 d-offset-1 zh-linkSubNav subNav"> 
+               <nav> 
+                <ul class="zh-subNavMenu"> 
+                 <li> <a class="showMobile text-xs" href="en/US/content/support">Get Support</a> </li> 
+                 <li><a class=" text-xs" title="Drivers and Manuals" href="en/US/content/drivers">Drivers and Manuals</a></li> 
+                 <li><a class=" text-xs" title="Repairs" href="http://customercare.acer.com/customercare/Default.aspx" target="_blank">Repairs</a></li> 
+                 <li><a class=" text-xs" title="Warranty Information" href="en/US/content/standard-warranty">Warranty Information</a></li> 
+                 <li><a class=" text-xs" title="Register a Product" href="en/US/content/acerid-account">Register a Product</a></li> 
+                 <li><a class=" text-xs" title="Windows 10 FAQ" href="en/US/content/windows10-faqs">Windows 10 FAQ</a></li> 
+                 <li><a class=" text-xs" title="Contact Acer" href="en/US/content/service-contact">Contact Acer</a></li> 
+                </ul> 
+               </nav> 
+              </div> 
+              <div class="col a-12 c-9 d-8 contSubNav zh-subNav"> 
+               <div class="row"> 
+                <div class="col a-12 c-7 contOne"> 
+                 <div class="row"> 
+                  <div class="col c-12 gutter support"> 
+                   <p class="heading-s margin-top-0">Get help for your Acer!</p> 
+                   <p class="text-s margin-bottom-m">Identify your Acer product and we will provide you with downloads, support articles and other online support resources that will help you get the most out of your Acer product.</p> 
+                   <a title="Get help for your Acer!" class="button float-left" href="en/US/content/support">Get Support</a> 
+                  </div> 
+                 </div> 
+                </div> 
+                <div class="col a-12 c-5 contTwo"> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Acer Community" class=" align-center" href="http://community.acer.com"> <img class="imagesSmall" src="//static.acer.com/up/Resource/Acer/Header/Support/20151230/Acer_Community.svg" alt="Acer Community" title="Acer Community"> <span>Acer Community</span> </a> 
+                  </div> 
+                 </div> 
+                 <div class="row"> 
+                  <div class="col c-12"> 
+                   <a title="Acer Answers" class=" align-center" href="en/US/content/ask-acer"> <img class="imagesSmall" src="//static.acer.com/up/Resource/Acer/Header/Support/20151230/FAQ.svg" alt="Acer Answers" title="Acer Answers"> <span>Acer Answers</span> </a> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="col a-12"></div> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <div class="menuRight zh-menuRight"> 
+          <ul> 
+           <li> <a class="text-s zh-login" href="https://www.acer.com/hub/login.do" style="display:none;" title="My Acer"> <i id="zh-inactive-user" class="text-m icon icon-ai-account"></i> My Acer </a> <a class="text-s zh-lnkAccount zh-withMenu logOn zh-loguser" style="display:none;" href="#" title="user name"> <i id="zh-active-user" class="text-m icon icon-ai-account bg-green text-primary-light" style="border-radius:50%"></i> <p class="text-s text-primary-dark capitalize" style="display:inline;"></p> <i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i> </a> 
+            <div class="zh-mega mega"> 
+             <div class="bg-gray-1 border-bottom hide-a-only hide-b-only"> 
+              <div class="container max-width-d"> 
+               <div class="row gutter"> 
+                <div class="col gutter a-6"> 
+                 <p class="text-m zh-hName">Welcome, [X]</p> 
+                </div> 
+                <div class="col gutter a-6"> 
+                 <a href="#" class="text-m showMobile zh-logout" data-logout="https://www.acer.com/hub/logout.do" style="margin:1rem!important;float:right;text-transform: capitalize;" title="Sign out">Sign out</a> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="container max-width-d"> 
+              <div class="row"> 
+               <div class="col gutter a-12 c-3 d-2 d-offset-1 zh-linkSubNav subNav"> 
+                <nav> 
+                 <ul> 
+                  <li> <a class="text-xs zh-myProfile" href="en/US/content/my-profile"> My Profile </a> </li> 
+                  <li> <a class="text-xs zh-myProducts" href="en/US/content/my-products"> My Products </a> </li> 
+                  <li> <a class="text-xs zh-registerProduct" href="en/US/content/register-product"> Register a product </a> </li> 
+                  <li> <a class="text-xs zh-abApps" href="https://www.cloud.acer.com/ops/login" target="_blank"> abApps </a> </li> 
+                  <li> <a href="#" class="text-xs showMobile zh-logout" data-logout="https://www.acer.com/hub/logout.do" title="Sign out"> Sign out </a> </li> 
+                 </ul> 
+                </nav> 
+               </div> 
+               <div class="col a-12 c-9 d-8 contSubNav zh-subNav hide-a-only hide-b-only"> 
+                <div class="row"> 
+                 <div class="col gutter a-12 c-7 contOne"> 
+                  <div class="row"> 
+                   <div class="col a-12"> 
+                    <p class="heading-s align-center margin-top-m">Profile completeness</p> 
+                   </div> 
+                  </div> 
+                  <div class="row margin-top-s"> 
+                   <div class="col a-12 c-3 user-sprite-container"> 
+                    <img class="centerImage Sprite-off zh-hPhone" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/Phone-number.svg" alt="Phone Number"> 
+                   </div> 
+                   <div class="col a-12 c-3 user-sprite-container"> 
+                    <img class="centerImage Sprite-off zh-hAddress" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/Address.svg" alt="Address"> 
+                   </div> 
+                   <div class="col a-12 c-3 user-sprite-container"> 
+                    <img class="centerImage Sprite-off zh-hProduct" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/Product.svg" alt="Product"> 
+                   </div> 
+                   <div class="col a-12 c-3 user-sprite-container"> 
+                    <img class="centerImage Sprite-off zh-hCloud" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/abApps.svg" alt="AbApps"> 
+                   </div> 
+                  </div> 
+                  <div class="row margin-bottom-s"> 
+                   <div class="col a-12 c-3"> 
+                    <p class="text-tertiary-dark align-center">Phone Number</p> 
+                   </div> 
+                   <div class="col a-12 c-3"> 
+                    <p class="text-tertiary-dark align-center">Address</p> 
+                   </div> 
+                   <div class="col a-12 c-3"> 
+                    <p class="text-tertiary-dark align-center">Product</p> 
+                   </div> 
+                   <div class="col a-12 c-3"> 
+                    <p class="text-tertiary-dark align-center">abApps</p> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="col a-12 c-5 contTwo"> 
+                  <div class="row"> 
+                   <div class="col a-12 gutter"> 
+                    <p class="heading-s align-center margin-top-m zh-hLatestProdText"> Your Latest Product Registered </p> 
+                    <a class="zh-hRegProdText" href="en/US/content/register-product"> <p class="uppercase align-center margin-top-m"> Register a product </p> </a> 
+                    <a class="zh-hProd" href="en/US/content/register-product"> <img class="centerImage" style="height:100px;" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/general-product.svg" alt="Generic Product Image" title="GeneralProduct"> <p class="text-tertiary-dark normal align-center capitalize zh-hSn"> </p> </a> 
+                    <img alt="Content is Loading" class="zh-hloading loading" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/loading-icon.svg"> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li> <a class="text-s zh-openSearch" href="http://#" title="Search"><i class="text-m icon icon-ai-search"></i>Search</a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <!--googleon: index--> 
+  </div> 
+  <span class="zh-productType" style="display:none"> Laptops </span> 
+  <span class="zh-avOnStore text-l text-primary-blue bold uppercase tag" style="display:none;"> Sold on Acer Store </span> 
+  <div class="newStyle"> 
+   <div class="container secondLevelMenu zh-menuSec"> 
+    <div class="container max-width-d"> 
+     <div class="row gutter"> 
+      <div class="col a-12 c-4 gutter seriesName"> 
+       <a class="text-xs bold uppercase no-underline float-left" title="Swift 3" href="en/US/content/series/swift3">Swift 3</a> 
+       <i class="icon icon-ai-arrow-down align-center iconCta"></i> 
+      </div> 
+      <div class="col a-12 c-8 gutter seriesNav"> 
+       <nav> 
+        <ul> 
+         <li><a title="Overview" class="text-xs bold text-tertiary-dark uppercase no-underline" href="en/US/content/series/swift3">Overview</a></li> 
+         <li><a title="Design" class=" text-xs bold text-tertiary-dark uppercase no-underline" href="en/US/content/series-design/swift3">Design</a></li> 
+         <li><a title="Features" class=" text-xs bold text-tertiary-dark uppercase no-underline" href="en/US/content/series-features/swift3">Features</a></li> 
+         <li><a title="Models" class="active text-xs bold text-tertiary-dark uppercase no-underline" href="en/US/content/models/laptops/swift3">Models</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container bg-gray-1"> 
+    <div class="container max-width-d"> 
+     <div class="row gutter product-list-container"> 
+      <div class="col a-12 c-3 gutter margin-top-s margin-bottom-s"> 
+       <div class="filter-box title"> 
+        <a class="text-l bold no-underline reset-filter" href="#1">Remove All Filters</a> 
+        <a class="open-filter heading-s normal text-tertiary-dark align-center uppercase" href="#1" style="display: none; "> <span class="open">Narrow Your Search</span> <span class="close float-right"><i class="text-xxl icon icon-ai-close"></i></span> </a> 
+        <a title="Clear All" class="reset-filter-button button empty-gray-7 float-left margin-top-0 " href="#">Clear All</a> 
+        <a title="Apply" class="apply-filter-button button empty-gray-7 float-left margin-top-0 " href="#">Apply</a> 
+       </div> 
+       <div class="filter-container" false style=""> 
+        <div class="filter-box zh-seriesFilterBox" style="display: none;"> 
+         <a class="text-l bold no-underline margin-bottom-0" href="#" title="Series"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Series</a> 
+         <ul> 
+          <li><a href="#1" class="selected"><p style="display: none;" class="zh-filterValues">0#109319</p><span class="check"></span><span class="label">Swift 3</span></a></li> 
+         </ul> 
+        </div> 
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Processor"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Processor</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">3379#Intel® Core i3 processor</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">Intel® Core i3 processor</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">3379#Intel® Core i5 processor</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">Intel® Core i5 processor</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">3379#Intel® Core i7 processor</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">Intel® Core i7 processor</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Features "><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Features </a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2357#Yes</p><span class="check"></span><span class="label text text-s light text-tertiary-dark"> Touchscreen</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">3041#Yes</p><span class="check"></span><span class="label text text-s light text-tertiary-dark"> Keyboard Backlight</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">4249#Yes</p><span class="check"></span><span class="label text text-s light text-tertiary-dark"> Long Battery Life</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Optical Drive Type"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Optical Drive Type</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2642#No</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">No</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Price ($)"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Price ($)</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2699#0|300</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;300</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2699#300|700</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">300-700</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2699#700|1000 </p><span class="check"></span><span class="label text text-s light text-tertiary-dark">700-1000 </span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2699#1000 |10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=1000 </span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Screen Size (" )"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Screen Size (")</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2756#0|13</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;13</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2756#13|14</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">13-14</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2756#14|16</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">14-16</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2756#16|10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=16</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Battery Life (h)"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Battery Life (h)</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2813#0|5</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;5</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2813#5|6</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">5-6</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2813#6|10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=6</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="SSD (GB)"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>SSD (GB)</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2870#0|60</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;60</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2870#60|128</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">60-128</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2870#128|256</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">128-256</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2870#256|10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=256</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="Wireless LAN Standard"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>Wireless LAN Standard</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">3326#IEEE 802.11ac</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">IEEE 802.11ac</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="HDD (GB)"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>HDD (GB)</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2927#0|500</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;500</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2927#500|640</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">500-640</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2927#640|1000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">640-1000</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2927#1000|10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=1000</span></a></li>
+         </ul>
+        </div>
+        <div class="filter-box">
+         <a class="text-l bold no-underline margin-bottom-0 href=" #" title="RAM (GB)"><i class="text-l text-tertiary-dark icon icon-ai-more"></i>RAM (GB)</a>
+         <ul>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2984#0|4</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&lt;4</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2984#4|6</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">4-6</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2984#6|8</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">6-8</span></a></li>
+          <li><a href="#1"><p style="display: none;" class="zh-filterValues">2984#8|10000000</p><span class="check"></span><span class="label text text-s light text-tertiary-dark">&gt;=8</span></a></li>
+         </ul>
+        </div>
+       </div> 
+      </div> 
+      <div class="col a-12 c-9 allModProdList"> 
+       <div class="sort">
+        <p><span>Sort by</span> <a class="open-short" href="#1" data-sort="filter#0#asc">Series</a></p> 
+        <ul class="short-list"> 
+         <li><a href="#1" data-sort="filter#0#asc">Series</a></li>
+         <li><a href="#1" data-sort="filter#2699#asc">Price ($)</a></li>
+         <li><a href="#1" data-sort="filter#2756#asc">Screen Size (")</a></li>
+         <li><a href="#1" data-sort="filter#2813#asc">Battery Life (h)</a></li>
+         <li><a href="#1" data-sort="filter#2870#asc">SSD (GB)</a></li>
+         <li><a href="#1" data-sort="filter#2927#asc">HDD (GB)</a></li>
+         <li><a href="#1" data-sort="filter#2984#asc">RAM (GB)</a></li>
+        </ul>
+       </div> 
+       <div class="row"> 
+        <div class="product-list"> 
+         <div id="NX.GKBAA.002" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@649#2756@14#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.002" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-52W2" title="SF314-51-52W2"> <h2 class="text-l align-center name">SF314-51-52W2</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.002</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-6200U processor Dual-core 2.30 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9 IPS</span></li> 
+             <li><span>Intel® HD Graphics 520 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 649.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.002" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.003" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@649#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.003" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-52DH" title="SF314-51-52DH"> <h2 class="text-l align-center name">SF314-51-52DH</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.003</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-6200U processor Dual-core 2.30 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 520 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 649.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.003" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.005" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@649#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i7 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.005" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-51UV" title="SF314-51-51UV"> <h2 class="text-l align-center name">SF314-51-51UV</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.005</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i7-6500U processor Dual-core 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 520 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 649.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.005" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.008" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@649#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.008" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-503H" title="SF314-51-503H"> <h2 class="text-l align-center name">SF314-51-503H</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.008</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-7200U processor 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 620 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 649.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.008" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.007" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@849#2756@14#2813@10#2870@512#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i7 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.007" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-71UU" title="SF314-51-71UU"> <h2 class="text-l align-center name">SF314-51-71UU</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.007</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i7-7500U processor 2.70 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>512 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 849.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.007" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.006" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@599#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.006" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-50CX" title="SF314-51-50CX"> <h2 class="text-l align-center name">SF314-51-50CX</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.006</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-7200U processor 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 599.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.006" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.001" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@599#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.001" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-57Z3" title="SF314-51-57Z3"> <h2 class="text-l align-center name">SF314-51-57Z3</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.001</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-7200U processor 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 599.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.001" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.013" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@499#2756@14#2813@10#2870@128#2984@4#3326@IEEE 802.11ac#3379@Intel® Core i3 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.013" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-39NE" title="SF314-51-39NE"> <h2 class="text-l align-center name">SF314-51-39NE</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.013</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i3-7100U processor Dual-core 2.40 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 620 with Shared Memory</span></li> 
+             <li><span>4 GB, DDR4 SDRAM</span></li> 
+             <li><span>128 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 499.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.013" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.004" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@799#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i7 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.004" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-76R9" title="SF314-51-76R9"> <h2 class="text-l align-center name">SF314-51-76R9</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.004</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i7-6500U processor Dual-core 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 520 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 799.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.004" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.007" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@549#2756@14#2813@10#2870@128#2984@4#3326@IEEE 802.11ac#3379@Intel® Core i3 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.007" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-398B" title="SF314-51-398B"> <h2 class="text-l align-center name">SF314-51-398B</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.007</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i3-7100U processor Dual-core 2.40 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 620 with Shared Memory</span></li> 
+             <li><span>4 GB, DDR4 SDRAM</span></li> 
+             <li><span>128 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 549.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.007" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKKAA.006" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@799#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i7 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKKAA.006" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Notebooks/Swift 3/Images/20160823/Swift-3_preview.png" alt="SF314-51-76EY" title="SF314-51-76EY"> <h2 class="text-l align-center name">SF314-51-76EY</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKKAA.006</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i7-7500U processor 2.70 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 620 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 799.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKKAA.006" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.012" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@499#2756@14#2813@10#2870@128#2984@4#3326@IEEE 802.11ac#3379@Intel® Core i3 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.012" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-30W6" title="SF314-51-30W6"> <h2 class="text-l align-center name">SF314-51-30W6</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.012</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i3-6006U processor Dual-core 2 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 520 with Shared Memory</span></li> 
+             <li><span>4 GB, DDR4 SDRAM</span></li> 
+             <li><span>128 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 499.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.012" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+         <div id="NX.GKBAA.015" class="col a-6 b-4 d-3 gutter item product" style="display: block; "> 
+          <div style="display: none; " class="zh-filterValues">
+           0@109319#2642@No#2699@599#2756@14#2813@10#2870@256#2984@8#3326@IEEE 802.11ac#3379@Intel® Core i5 processor#4249@Yes
+          </div> 
+          <div class="content"> 
+           <article> 
+            <div class="zh-blueContent"> 
+             <span class="zh-newProduct text-l text-primary-blue bold uppercase tag"> </span> 
+            </div> 
+            <a class="no-underline" href="en/US/content/model/NX.GKBAA.015" title="Explore"><img class="centerImage" src="//static.acer.com/up/Resource/Acer/Laptops/Swift_3/Image/20161006/Swift-3_silver_preview.png" alt="SF314-51-57CP" title="SF314-51-57CP"> <h2 class="text-l align-center name">SF314-51-57CP</h2></a> 
+            <h4 class="text-s align-center partNumb zh-pn">NX.GKBAA.015</h4> 
+            <ul class="text-m text-tertiary-dark align-center ctnTechSpecList"> 
+             <li><span>Windows 10 Home</span></li> 
+             <li><span>Intel® Core i5-7200U processor 2.50 GHz</span></li> 
+             <li><span>14" Full HD (1920 x 1080) 16:9</span></li> 
+             <li><span>Intel® HD Graphics 620 with Shared Memory</span></li> 
+             <li><span>8 GB, DDR4 SDRAM</span></li> 
+             <li><span>256 GB SSD</span></li> 
+            </ul> 
+            <p class="text-l align-center bold"> $ 599.99 </p> 
+            <a class="button text-primary-light bg-green zh-buyModalMultiPn zh-noVisibilityCheck" data-pn="NX.GKBAA.015" href="#" title="Buy now">Buy now</a> 
+            <div class="compare radioButtonCont"> 
+             <a class="no-underline" href="#1"> <span class="check"> </span> <span class="label text text-s light text-tertiary-dark">Add to compare</span> <span class="label deselect text text-s light text-tertiary-dark">Remove</span></a> 
+            </div> 
+           </article> 
+          </div> 
+         </div> 
+        </div>
+       </div> 
+      </div> 
+      <div class="col gutter a-12 margin-bottom-l no-element" style="display: none; "> 
+       <p class="text-s">There are no products that match your criteria. Please try again with different options.</p> 
+      </div> 
+      <div class="col a-12 c-offset-3 c-9 more-element" style="display: none; "> 
+       <a class="text-s no-underline" href="#1">Load More Elements</a> 
+      </div> 
+      <div class="container modal clm-modal zh-modal"> 
+       <div class="container max-width-d"> 
+        <div class="row gutter modalContent zh-modalContent"> 
+         <div class="zh-bxslider"> 
+          <div class="zh-el flex"> 
+           <div class="col a-12 gutter bg-gray-2 padding-top-xl padding-bottom-xl"> 
+            <p class="zh-clm-noPn clm-noPn align-center">No Sellers Available</p> 
+            <div id="sd-box-loghi" class="zh-clm-multi col a-12" data-skulist="partNumber" data-apiid="1d03f0a3-51e0-4f75-908f-526e94299bad"> 
+             <div class="col a-8 a-offset-2 zh-template zh-acer-store "> 
+              <a href="#1" target="blank" class="zh-link no-underline"> 
+               <div class="sd-logo">
+                <img src="" alt="image" class="zh-logo centerImage">
+                <img src="" class="zh-trackPixel" alt="imageTP">
+               </div> 
+               <div class="sd-description"> 
+                <p class="text-l text-primary-dark margin-top-0 zh-store-price"></p> 
+                <p class="text-tertiary-dark zh-store-descr">Buy Direct From Acer<br> Visit the Acer Store for the widest selection of Acer products, accessories, upgrades and more. Discover special promotions and exclusive offers.</p> 
+               </div> </a> 
+              <div class="sd-price">
+               <p class="zh-price text-tertiary-dark align-center"></p>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <a class="heading-xl close no-underline zh-close-clm" href="">Close<i class="text-tertiary-dark icon icon-ai-close"></i></a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="compare-box"> 
+       <div class="container max-width-d"> 
+        <div class="row gutter"> 
+         <div class="col a-3 compare-menu"> 
+          <p class="text-l bold margin-0">Compare Products</p> 
+          <p class="text-s text-tertiary-dark">Compare max 3 models within the same category</p> 
+         </div> 
+         <div class="col a-6 list-product-to-compare"></div> 
+         <div class="col a-3"> 
+          <a class="selected-label open float-right"><i class="selected-label open icon icon-ai-arrow-up"></i></a> 
+          <a class="selected-label close float-right"><i class="selected-label open icon icon-ai-arrow-down"></i></a> 
+          <a href="en/US/content/compare/{0}" class="button text-primary-light bg-green btnComp btnCompare">Compare Products</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="newStyle"> 
+   <!--googleoff: index--> 
+   <footer> 
+    <div class="footerNav"> 
+     <div class="container max-width-d"> 
+      <div class="row gutter"> 
+       <div class="col a-12 c-3 d-2 gutter"> 
+        <h4 class="zh-lnkFooter uppercase text-primary-light align-left text-s">About Acer<i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i></h4> 
+        <ul> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/contacts" title="Contact Us">Contact Us</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="http://www.acer-group.com/public/Investor_Relations/overview.htm" title="Investor Relations">Investor Relations</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/press" title="Press">Press</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/csr" title="Corporate Social Responsibility">Corporate Social Responsibility</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/careers" title="Careers">Careers</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/awards" title="Awards">Awards</a></li> 
+        </ul> 
+       </div> 
+       <div class="col a-12 c-3 d-2 gutter"> 
+        <h4 class="zh-lnkFooter uppercase text-primary-light align-left text-s">Service<i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i></h4> 
+        <ul> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="http://community.acer.com/" title="Acer Community" target="_blank">Acer Community</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/drivers" title="Drivers and Manuals">Drivers and Manuals</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/ask-acer" title="Acer Answers">Acer Answers</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/service-contact" title="Contacts">Contacts</a></li> 
+        </ul> 
+       </div> 
+       <div class="col a-12 c-3 d-2 gutter"> 
+        <h4 class="zh-lnkFooter uppercase text-primary-light align-left text-s">Resources<i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i></h4> 
+        <ul> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/innovations-home" title="Innovations">Innovations</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="http://www.acer.com/40thanniversary" title="40th anniversary" target="_blank">40th anniversary</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/acerid-account" title="Register Product">Register Product</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/predator-home" title="Predator">Predator</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="http://www.acer.com/nextatacer" title="Next@Acer" target="_blank">Next@Acer</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/acerdesign-home" title="Acer Design">Acer Design</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="https://www.acer.com/ac/en/US/content/online-stores/;;;11" title="Where to Buy">Where to Buy</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/software" title="Software">Software</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/professional-home" title="For Work">For Work</a></li> 
+        </ul> 
+       </div> 
+       <div class="col a-12 c-3 d-2 gutter"> 
+        <h4 class="zh-lnkFooter uppercase text-primary-light align-left text-s">Legal<i class="zh-iconMobile iconMobile text-l icon icon-ai-more"></i></h4> 
+        <ul> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/privacy" title="Privacy">Privacy</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="en/US/content/cookie" title="Cookie Policy">Cookie Policy</a></li> 
+         <li><a class="text-xs uppercase align-left text-tertiary-light" href="http://www.acer-group.com/public/index/legal.htm" title="Legal Notice">Legal Notice</a></li> 
+        </ul> 
+       </div> 
+       <div class="col a-12 c-12 d-4"> 
+        <div class="row gutter"> 
+         <div class="col c-up c-6 d-12 newsletter"> 
+          <h4 class="align-left text-primary-light text-s uppercase">Newsletter</h4> 
+          <input class="zh-news text-s text-tertiary-light" type="email" placeholder="Email..." title="Email..."> 
+          <a title="Sign Up" class="button float-left zh-newsButton" href="#">Sign Up</a> 
+          <p class="error text-primary-red zh-invalidEmail text-xs">Invalid email address.</p> 
+          <p class="error text-primary-red zh-mandatory text-xs">This is a mandatory field.</p> 
+          <p class="error text-primary-red zh-alreadyRegistered text-xs">Sorry, this email address has already been registered.</p> 
+          <p class="error text-primary-red zh-generalError text-xs">Sorry, an error occurred. Please try again later.</p> 
+          <p class="success text-tertiary-light zh-regSuccesfull text-xs">Newsletter Subscription Succesfull! To register a device, please complete your Acer ID <a class="text-secondary-light" href="">here</a></p> 
+          <p class="footnote text-tertiary-light zh-terms text-xs">By signing up, I accept the terms of Acer's <a class="text-secondary-light" target="_blank" href="http://www.acer.com/ac/en/US/content/privacy">Privacy Policy</a></p> 
+         </div> 
+         <div class="col a-12 c-6 d-12 social"> 
+          <a title="facebook" href="http://www.facebook.com/AcerUSA" target="_blank"> <span class="facebook"></span>facebook </a> 
+          <a title="twitter" href="https://twitter.com/acer" target="_blank"> <span class="twitter"></span>twitter </a> 
+          <a title="youtube" href="https://www.youtube.com/user/acer" target="_blank"> <span class="youtube"></span>youtube </a> 
+          <a title="googleplus" href="https://plus.google.com/+Acer" target="_blank"> <span class="googleplus"></span>googleplus </a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="footerBar"> 
+     <div class="container max-width-d"> 
+      <div class="row gutter"> 
+       <div class="col a-12 c-5 gutter copyright"> 
+        <p class="text-xs text-tertiary-light">© 2017 Acer Inc.<br> This website is best viewed using Internet Explorer 9 , Chrome , Safari and newer browsers.</p> 
+       </div> 
+       <div class="col c-up c-2 gutter"> 
+        <img class="logo" src="//static.acer.com/up/Resource/templateLibraries/Acer/430/images/logo-white.svg" alt="Logo"> 
+       </div> 
+       <div class="col a-12 c-5 gutter language"> 
+        <a title="Title" class="text-xs align-right text-tertiary-light" href="//www.acer.com/worldwide/"> <i class="text-m icon icon-ai-language"></i>United States</a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="videoSection"> 
+     <div class="bg"></div> 
+     <div class="info"> 
+      <p class="txt">Title</p> 
+      <a class="close" href="#1">?_Close</a> 
+     </div> 
+     <div class="video"> 
+      <iframe src="about:blank" allowfullscreen></iframe> 
+     </div> 
+    </div> 
+   </footer> 
+   <!--googleon: index--> 
+  </div>   
+ </body>
+</html>

@@ -1,0 +1,3833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+  <meta name="keywords" content="Best Gaming Computer, Best Gaming Laptop, Cheap Laptop Computer, Gaming Laptop Computers, Gaming Notebook"> 
+  <meta name="description" content="ProStar has been committed to provide the latest mobile technology and superior service at an affordable price. Please visit our site if you are interested in Best Gaming Computer, Best Gaming Laptop, Cheap Gaming Laptop Computers and Gaming Notebook."> 
+  <script src="/css/jquery.js"></script> 
+  <link rel="stylesheet" type="text/css" href="/css/prostar.css"> 
+  <link rel="stylesheet" type="text/css" href="/css/common.css"> 
+  <title>Best Gaming Computer | Best Gaming Laptop | Cheap Gaming Laptop
+		Computers | Gaming Notebook | Pro-Star.com</title> 
+  <!-- <title>My Web Application - Product</title> --> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-243797-3', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0"> 
+  <script language="JavaScript" type="text/javascript">
+  <!--Break out of frames
+    if (top.frames.length!=0)
+    top.location=self.document.location;
+  //-->
+  function sendIt(fileName) {
+      if (fileName != "") {
+         location.replace(fileName)
+      }
+  }
+</script> 
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script> 
+  <script type="text/javascript">
+_uacct = "UA-243797-3";
+urchinTracker();
+</script> 
+  <script type="text/javascript"><!--
+var timeout = 500;
+var closetimer = 0;
+var ddmenuitem = 0;
+// open hidden layer
+function mopen(id) {	
+	mcancelclosetime();	// cancel close timer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden'; 	// close old layer
+	ddmenuitem = document.getElementById(id);		// get new layer and show it
+	ddmenuitem.style.visibility = 'visible';
+}
+function mclose(){ if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';}
+function mclosetime(){ closetimer = window.setTimeout(mclose, timeout);}
+function mcancelclosetime(){
+	if(closetimer)	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+document.onclick = mclose; 
+// --></script> 
+  <style>.topmenu { color: #999999; font-size: 20px; font-weight: bold}</style> 
+  <div class="dtop"> 
+   <table width="1440" height="130" border="0" cellpadding="0" cellspacing="0"> 
+    <tbody>
+     <tr> 
+      <td rowspan="3" align="left" width="440"><a href="/index.php?r=index/index"><img src="/newimg/prostar-logo.gif" width="320" height="88" hspace="8" border="0"></a></td> 
+      <td align="right" colspan="5" height="100" valign="bottom"><a href="/index.php?r=cart/first"><img src="/newimg/cart-icon.gif" width="60" height="46" hspace="10" border="0"> <span class="topmenu">I T E M S</span></a> <br> <span style="color:#999999; font-weight:bold; font-size:15px">Buy Online or Call 1-888-576-6776</span><br></td> 
+     </tr>
+     <tr> 
+      <td valign="bottom" width="150"><a href="/index.php?r=index/company"><span class="topmenu">COMPANY</span></a></td> 
+      <td valign="bottom" width="150">
+       <ul id="sddm2"> 
+        <a href="/index.php?r=index/clevo" onmouseover="mopen('m2')" onmouseout="mclosetime()"><span class="topmenu">PRODUCT</span></a> 
+        <div id="m2" style="z-index: 100" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> 
+         <a href="/index.php?r=product/index&amp;filter=14">Prostar 13" ~ 15.6"</a> 
+         <a href="/index.php?r=product/index&amp;filter=15">ProStar 17.3"</a> 
+         <a href="/index.php?r=product/index&amp;filter=16">MSI 14" ~ 15.6"</a> 
+         <a href="/index.php?r=product/index&amp;filter=18">MSI 17.3" ~ 18.4"</a> 
+         <a href="/index.php?r=product/index&amp;filter=20">ASUS 15.6"</a> 
+         <a href="/index.php?r=product/index&amp;filter=21">ASUS 17.3"</a> 
+         <a href="/index.php?r=product/index&amp;filter=30">Gigabyte 14" ~ 17.3"</a> 
+         <a href="/index.php?r=product/index&amp;filter=11">Special Deals</a> 
+         <a href="/index.php?r=product/accessory">Accessories</a> 
+        </div> 
+       </ul> </td> 
+      <td valign="bottom" width="150">
+       <ul id="sddm2"> 
+        <a href="/index.php?r=index/support" onmouseover="mopen('m3')" onmouseout="mclosetime()"><span class="topmenu">SUPPORT</span></a> 
+        <div id="m3" style="z-index: 100" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> 
+         <a href="/index.php?r=index/support">Technical Support</a> 
+         <a href="/index.php?r=index/guarantee">Prostar Warranty</a> 
+         <a href="/index.php?r=index/review">Review and Award</a> 
+        </div> 
+       </ul></td> 
+      <td valign="bottom" width="150"><a href="/index.php?r=index/contact"><span class="topmenu">CONTACT</span></a></td> 
+      <td valign="bottom" width="600"><a href="https://www.pro-star.com/index.php?r=form/qorder"><span class="topmenu">ORDER STATUS</span></a></td> 
+     </tr> 
+     <tr> 
+      <td colspan="13" height="3"></td> 
+     </tr> 
+    </tbody>
+   </table> 
+  </div> 
+  <br> 
+  <div> 
+   <table style="background-color:white; margin-top:10px;" align="center"> 
+    <tbody>
+     <tr> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem  pitemfirst"> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GL62M-7RD-056</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GL62M-7RD-056" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GL62M-7RD-056.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$999</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$969</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GL62M-7RD-056"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GL62M-7RD-056"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1050 2GB 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) eDP Vivid Color 94% 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GL62M-7RD-265</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GL62M-7RD-265" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GL62M-7RD-265.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$899</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$872</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GL62M-7RD-265"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GL62M-7RD-265"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i5-7300HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1050 2GB 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) eDP Vivid Color 94% 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 8GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GL72-7RD-028</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GL72-7RD-028" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GL72-7RD-028.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1099</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1066</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GL72-7RD-028"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GL72-7RD-028"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1050 2GB DDR5 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) eDP Matte 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 128GB M.2 SSD + 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GP62MVR-LeopardPro4K-463</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GP62MVR-LeopardPro4K-463" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GP62MVR-LeopardPro4K-463.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1499</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1454</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GP62MVR-LeopardPro4K-463"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GP62MVR-LeopardPro4K-463"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 3GB 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" 4K UHD (3840x2160) IPS-Level Matte 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 SSD + 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GP72VR-LeopardPro-281</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GP72VR-LeopardPro-281" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GP72VR-LeopardPro-281.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1399</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1357</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GP72VR-LeopardPro-281"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GP72VR-LeopardPro-281"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 3GB 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080), 120Hz 5ms 94% NTSC 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GP72VR-LeopardPro-284</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GP72VR-LeopardPro-284" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GP72VR-LeopardPro-284.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1599</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1551</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$30 off any upgrade or accessory purchase</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GP72VR-LeopardPro-284"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GP72VR-LeopardPro-284"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 3GB 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080), 120Hz 5ms 94% NTSC 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 512GB M.2 SSD + 1TB SATA Drive 
+                  </div></td>
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive 
+                  </div></td>
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS43VR-PhantomPro-069</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS43VR-PhantomPro-069" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS43VR-PhantomPro-069.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1499</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1454</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS43VR-PhantomPro-069"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS43VR-PhantomPro-069"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 14" FHD (1920x1080) IPS-Level Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 128GB M.2 SSD + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS63VR-StealthPro-230</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS63VR-StealthPro-230" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS63VR-StealthPro-230.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1799</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1745</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS63VR-StealthPro-230"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS63VR-StealthPro-230"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) IPS-Level Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe + 2TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS63VR-StealthPro-229</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS63VR-StealthPro-229" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS63VR-StealthPro-229.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2049</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1988</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS63VR-StealthPro-229"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS63VR-StealthPro-229"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) IPS-Level Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 32GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 512GB M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS63VR-StealthPro4K-228</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS63VR-StealthPro4K-228" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS63VR-StealthPro4K-228.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2049</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1988</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS63VR-StealthPro4K-228"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS63VR-StealthPro4K-228"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" 4K UHD (3840x2160) IPS-Level Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 512GB M.2 NVMe + 2TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS73VR-StealthPro-225</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS73VR-StealthPro-225" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS73VR-StealthPro-225.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1799</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1745</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS73VR-StealthPro-225"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS73VR-StealthPro-225"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) 120Hz 5ms 94% NTSC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe + 2TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GS73VR-StealthPro4K-223</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GS73VR-StealthPro4K-223" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GS73VR-StealthPro4K-223.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2299</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2230</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade or accessory purchase or Fee Gaming Backpack or Free Gaming Headset</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GS73VR-StealthPro4K-223"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GS73VR-StealthPro4K-223"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" UHD (3840x2160) eDP IPS-Level Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 512GB M.2 NVMe + 2TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT62VR-Dominator-240</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT62VR-Dominator-240" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT62VR-Dominator-240.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1599</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1551</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off on any upgrade or accessory purchase</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT62VR-Dominator-240"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT62VR-Dominator-240"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) IPS-Level Matte with G-SYNC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 SSD + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT62VR-DominatorPro-238</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT62VR-DominatorPro-238" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT62VR-DominatorPro-238.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1799</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1745</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off on any upgrade or accessory purchase</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT62VR-DominatorPro-238"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT62VR-DominatorPro-238"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 15.6" FHD (1920x1080) IPS-Level Matte with G-SYNC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 SSD + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Optional
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT72VR-Dominator-449</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT72VR-Dominator-449" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT72VR-Dominator-449.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1649</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1600</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or Fee Gaming Backpack or Free Gaming Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT72VR-Dominator-449"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT72VR-Dominator-449"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1060 6GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080), 120Hz 5ms 94% NTSC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 SSD + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT72VR-DominatorPro-448</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT72VR-DominatorPro-448" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT72VR-DominatorPro-448.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1899</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$1842</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or Fee Gaming Backpack or Free Gaming Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT72VR-DominatorPro-448"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT72VR-DominatorPro-448"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7700HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080), 120Hz 5ms 94% NTSC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 SSD + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-Titan-427</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-Titan-427" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-Titan-427.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2099</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2036</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-Titan-427"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-Titan-427"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) 120Hz 5ms 94% NTSC 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-Titan-426</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-Titan-426" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-Titan-426.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2299</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2230</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-Titan-426"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-Titan-426"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) 120Hz 5ms 94% NTSC 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe and 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-Titan4K-480</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-Titan4K-480" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-Titan4K-480.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2699</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2618</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-Titan4K-480"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-Titan4K-480"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" 4K UHD (3840x2160) eDP IPS-Level
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe and 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-TitanPro-425</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-TitanPro-425" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-TitanPro-425.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2899</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2812</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-TitanPro-425"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-TitanPro-425"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1080 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) 120Hz 5ms 94% NTSC
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-TitanPro4K-479</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-TitanPro4K-479" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-TitanPro4K-479.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2999</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2909</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-TitanPro4K-479"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-TitanPro4K-479"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA GeForce GTX 1080 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" 4K UHD (3840x2160) eDP IPS-Level
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 256GB M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT73VR-TitanSLI4K-423</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT73VR-TitanSLI4K-423" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT73VR-TitanSLI4K-423.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$3599</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$3491</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade, Free Backpack or Headset</b></font></li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT73VR-TitanSLI4K-423"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT73VR-TitanSLI4K-423"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7820HK 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> Dual NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" 4K UHD (3840x2160) eDP IPS-Level
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 32GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> (256GB x 2) M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> N/A
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT83VR-TitanSLI-213</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT83VR-TitanSLI-213" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT83VR-TitanSLI-213.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$4499</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$4364</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade or accessory purchase and Free MSI metal key cap kit </b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT83VR-TitanSLI-213"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT83VR-TitanSLI-213"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7920HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> Dual NVIDIA GeForce GTX 1070 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 18.4" FHD (1920x1080) IPS-Level Matte 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 64GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> (512GB x 2) M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Blu-ray Burner
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">GT83VR-TitanSLI-212</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="GT83VR-TitanSLI-212" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/GT83VR-TitanSLI-212.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$5399</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$5237</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$100 off any upgrade or accessory purchase and Free MSI metal key cap kit </b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=GT83VR-TitanSLI-212"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=GT83VR-TitanSLI-212"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 7th Generation Intel Core i7-7920HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> Dual NVIDIA GeForce GTX 1080 8GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 18.4" FHD (1920x1080) IPS-Level Matte 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 64GB DDR4 2400MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> (512GB x 2) M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Blu-ray Burner
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr>
+     <tr>
+      <td valign="top" style="background-color:#F3F6FB;"> 
+       <div class="pitem "> 
+        <div class="pitemtitle title-3"> 
+         <span style="font-size:18px; font-weight: bold;">WT72-6QL-283US</span>
+         <br> 
+         <!--input  type="checkbox" onclick="addSelectedModel(this)" value="WT72-6QL-283US" name="selmodel"/--> 
+         <!--input onclick="return submitCompare();"  width="116" type="image" hspace="2" height="19" src="/product/images/button-select-to-compare.gif"--> 
+        </div> 
+        <div class="pitemcontent"> 
+         <div class="pitemcontenttop"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-up.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-up.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-up.gif"> 
+         </div> 
+         <div class="pitemcontentdn"> 
+          <table border="0px" cellspacing="0px" cellpadding="0px"> 
+           <tbody>
+            <tr>
+             <td class="pitemcontentdnleft"></td> 
+             <td width="300px">
+              <table>
+               <tbody>
+                <tr>
+                 <td width="140">
+                  <center>
+                   <img border="0" src="/product/images/product_image_with_dimension/WT72-6QL-283US.jpg">
+                  </center>
+                  <!--br /--></td> 
+                 <td valign="middle"> 
+                  <!--img src="/product/images/icon/smallLogo_i5-2.gif"--> 
+                  <table class="tablealigncenter"> 
+                   <tbody>
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" style="text-align:right">Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2899</td> 
+                    </tr> 
+                    <tr> 
+                     <td class="bodytext-4 pricetabletext" nowrap>Cash Price:</td> 
+                     <td class="bodytext-5 pricetablevalue">$2812</td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td>
+                </tr> 
+                <tr>
+                 <td colspan="2" height="55">
+                  <ul>
+                   <span style="font-size:9px"><li>Free UPS Ground Shipping in U.S. </li><li><font color="#ff0000"><b>$50 off any upgrade or accessory purchase</b></font> </li></span>
+                  </ul></td>
+                </tr>
+               </tbody>
+              </table> 
+              <center>
+               <table width="100%" cellpadding="0" border="0">
+                <tbody>
+                 <tr>
+                  <td align="center"> <a href="/index.php?r=product/detail&amp;model=WT72-6QL-283US"><img width="121" height="20" border="0" src="/product/images/button-more-info-2.gif"></a> </td>
+                  <td align="center"> <a href="/index.php?r=product/configure&amp;model=WT72-6QL-283US"><img width="121" height="20" border="0" src="/product/images/button-configure-it.gif"></a> </td>
+                 </tr> 
+                 <tr>
+                  <td colspan="2" height="10"></td>
+                 </tr>
+                </tbody>
+               </table> 
+              </center> 
+              <table align="center" border="0" cellpadding="3" cellspacing="0" width="100%"> 
+               <tbody> 
+                <tr> 
+                 <td valign="top" width="7">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Processor</strong>
+                   <br> 6th Generation Intel Core i7-6820HQ 
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Graphics</strong>
+                   <br> NVIDIA Quadro M4000M 4GB
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Display</strong>
+                   <br> 17.3" FHD (1920x1080) IPS Matte
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Memory</strong>
+                   <br> 16GB DDR4 2133MHz
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center"> 
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3" bgcolor="#e5e5e5">
+                  <div align="left">
+                   <strong>Hard Drive</strong> 
+                   <br> 128GB M.2 NVMe + 1TB SATA Drive
+                  </div></td> 
+                </tr> 
+                <tr> 
+                 <td valign="top">
+                  <div align="center">
+                   <img src="product/images/icon-arrow-3.gif" height="6" vspace="4" width="4">
+                  </div></td> 
+                 <td class="bodytext-3">
+                  <div align="left">
+                   <strong>Optical Drive</strong>
+                   <br> Super-Multi Drive
+                  </div></td> 
+                </tr>  
+               </tbody> 
+              </table> </td> 
+             <td class="pitemcontentdnright"></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <div class="pitemcontentfooter"> 
+          <img width="19" height="19" src="/product/images/box-product-page-left-down.gif">
+          <img width="300" height="19" src="/product/images/box-product-page-mid-down.gif">
+          <img width="19" height="19" src="/product/images/box-product-page-right-down.gif"> 
+         </div> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <form action="/index.php?r=product/compare" method="post" name="formcompare" id="formcompare"> 
+    <input type="hidden" id="hidselected" name="hidselected" value=""> 
+   </form> 
+   <script>
+function addSelectedModel(obj)
+{ 
+	var selvalue="";
+	if($("#hidselected").val()!="")
+		selvalue=$("#hidselected").val();
+	if(obj.checked)
+	{
+		if(selvalue=="")
+			$("#hidselected").val($(obj).val()+",");
+		else
+			$("#hidselected").val(selvalue+$(obj).val()+",");
+	}
+	else
+		$("#hidselected").val(selvalue.replace($(obj).val()+",",""))
+}
+function submitCompare()
+{
+	//alert($("#hidselected").val());
+	if($("#hidselected").val()=="")
+	{
+		alert("please select more than two models!");
+		return false;
+	}
+	
+	$("#formcompare").submit();
+	return true;
+}
+	</script> 
+  </div>  
+  <!-- content --> 
+  <div class="divclear"></div> 
+  <br> 
+  <table width="1350" align="center" cellpadding="0" cellspacing="0" border="0"> 
+   <tbody>
+    <tr> 
+     <td width="360" valign="top"><span style="color:#999999; font-weight:bold; font-size:18px">Buy Online or Call<br>1-888-576-6776<br><br> <img src="/newimg/icon/facebook-icon.gif"> <img src="/newimg/icon/twitter-icon.gif"> <img src="/newimg/icon/instagram-icon.gif"></span></td> 
+     <td width="250" valign="top"><span style="color:#999999; font-weight:bold; font-size:23px; text-align:center">Product</span><p> <a href="/index.php?r=product/index&amp;filter=31" style="color:#666666;font-size:15px;font-weight:bold">Prostar/Clevo Laptops</a> <br> <a href="/index.php?r=product/index&amp;filter=32" style="color:#666666;font-size:15px;font-weight:bold">MSI Laptops</a> <br> <a href="/index.php?r=product/index&amp;filter=6" style="color:#666666;font-size:15px;font-weight:bold">ASUS Laptops</a><br> <a href="/index.php?r=product/index&amp;filter=30" style="color:#666666;font-size:15px;font-weight:bold">Gigabyte Laptops</a> </p></td> 
+     <td width="250" valign="top"><span style="color:#999999; font-weight:bold; font-size:23px">Support</span><p> <span style="color:#666666; font-weight:bold; font-size:15px;"> <a href="/index.php?r=index/support" style="color:#666666;font-size:15px;font-weight:bold">Technical Support</a> <br> <a href="/index.php?r=index/guarantee" style="color:#666666;font-size:15px;font-weight:bold">Prostar Warranty </a> <br> <a href="/index.php?r=index/review" style="color:#666666;font-size:15px;font-weight:bold">Review and Reward</a> <br> <a href="/index.php?r=index/article" style="color:#666666;font-size:15px;font-weight:bold">Articles</a> </span> </p></td> 
+     <td width="360" valign="top"><span style="color:#999999; font-weight:bold; font-size:23px">Company</span><p> <span style="color:#666666; font-weight:bold; font-size:15px;"> <a href="/index.php?r=index/company" style="color:#666666;font-size:15px;font-weight:bold">About Prostar </a> <br> <a href="/index.php?r=index/contact" style="color:#666666;font-size:15px;font-weight:bold">Contact us</a> <br> <a href="/index.php?r=index/Specialoffer" style="color:#666666;font-size:15px;font-weight:bold">Special Discount</a> <br> <a href="/index.php?r=index/sitemap" style="color:#666666;font-size:15px;font-weight:bold">Sitemap</a> </span> </p></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <!-- AddThis Button BEGIN --> 
+  <table width="980" align="center"> 
+   <tbody>
+    <tr> 
+     <td> 
+      <!-- <script type="text/javascript"
+					src="http://s7.addthis.com/js/250/addthis_widget.js#username=gtowsley"></script> --> </td>
+    </tr>
+   </tbody>
+  </table> 
+  <!-- AddThis Button END -->    
+ </body>
+</html>
