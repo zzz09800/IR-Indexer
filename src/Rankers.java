@@ -1,3 +1,5 @@
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashSet;
@@ -6,40 +8,86 @@ import java.util.HashSet;
  * Created by andrew on 4/22/17.
  */
 public class Rankers {
-	public int computeProcessorRank(HashSet<SpecElement> results, SpecElement element)
+	public double computeProcessorRank(HashSet<SpecElement> results, SpecElement element)
 	{
 		String verifier_input=element.CPU_model.toLowerCase();
 		if(verifier_input.contains("i7")&&(verifier_input.contains("hq")||verifier_input.contains("hk"))){
-			return 6;
+			return 6.0;
 		}
 		if(verifier_input.contains("i7")&&!verifier_input.contains("hq")&&!verifier_input.contains("hk")){
-			return 5;
+			return 5.0;
 		}
-		if(verifier_input.contains("i5")){
-			return 4;
+		if(verifier_input.contains("i5")&&verifier_input.toLowerCase().contains("quad")){
+			return 4.5;
+		}
+		if(verifier_input.contains("i5"))
+		{
+			return 4.0;
 		}
 		if(verifier_input.contains("i3")){
-			return 3;
+			return 3.0;
 		}
-		if(verifier_input.contains("pentium")||verifier_input.contains("Celeron")) {
-			return 2;
+		if(verifier_input.toLowerCase().contains("pentium")||verifier_input.toLowerCase().contains("celeron")) {
+			return 2.0;
 		}
 		if(verifier_input.contains("amd")) {
-			return 2;
+			return 2.0;
 		}
 		if(!verifier_input.contains("intel")||verifier_input.contains("atom")) {
-			return 1;
+			return 1.0;
 		}
 		return 0;   //unranked.
 	}
 
-	public int computeGraphicRank(HashSet<SpecElement> results, SpecElement element)
+	public double computeGraphicRank(HashSet<SpecElement> results, SpecElement element)
 	{
-		String verifier_input=element.CPU_model.toLowerCase();
+		String verifier_input=element.graphic_model.toLowerCase();
+		double multipler=1.0;
+		int i;
+		int model_number;
+
+		if(verifier_input.contains("dual"))
+			multipler=1.4;
+
 		if(verifier_input.contains("intel")){
 			return 1;
 		}
-		if(verifier_input.contains("gtx")) {
+
+		if(verifier_input.contains("nvidia")&&verifier_input.contains("quadro")){
+			element.special_use=true;
+			return 4.5;
+
+		}
+
+		if(verifier_input.contains("geforce")||verifier_input.contains("nvidia"))
+		{
+			String tester = verifier_input.toLowerCase().replaceAll("ti"," ti").replaceAll("mx"," mx");
+			if(verifier_input.contains("m"))
+				multipler=multipler*0.85;
+			String[] tokens = tester.split(" ");
+			for(i=0;i<tokens.length;i++)
+			{
+				if(StringUtils.isNumeric(tokens[i])) {
+					model_number=Integer.parseInt(tokens[i]);
+					if(model_number>700){
+						if(model_number%100==80)
+							return 6*multipler;
+						else if(model_number%100==70)
+							return 5.5*multipler;
+						else if(model_number%100==60)
+							return 4.5*multipler;
+						else if(model_number%100==50)
+							return 4*multipler;
+						else
+							return 2*multipler;
+					}
+				}
+			}
+		}
+		else if(verifier_input.contains("amd"))
+			return 2.5;
+
+		/*if(verifier_input.contains("gtx")) {
 			return 6;
 		}
 		if(verifier_input.contains("nvidia")&&verifier_input.contains("quadro")){
@@ -50,7 +98,7 @@ public class Rankers {
 		}
 		if(verifier_input.contains("radeon")&&verifier_input.contains("shared")){
 			return 3;
-		}
+		}*/
 
 		return 0;
 	}

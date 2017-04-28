@@ -70,7 +70,7 @@ public class main {
 		}
 		System.out.println(i);*/
 
-		QueryProcessor queryProcessor = new QueryProcessor("Gaming laptops");
+		QueryProcessor queryProcessor = new QueryProcessor("laptops for photo editing under 1500");
 		queryProcessor.parseQuery();
 		ArrayList<SpecElement> filtered=queryProcessor.filteredSearch(res);
 

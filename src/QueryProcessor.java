@@ -28,6 +28,8 @@ public class QueryProcessor {
 	float price_limit_max;
 	boolean price_limit_effective=false;
 
+	boolean special_graphic=false;
+
 	String stemmedQuery;
 	ArrayList<QueryTokens> queryTokens;
 
@@ -59,17 +61,22 @@ public class QueryProcessor {
 	public void clearFilters()
 	{
 		this.target_Processor_range_min=0;
-		this.target_Processor_range_max=6;
+		this.target_Processor_range_max=999;
 		this.target_Graphics_range_min=0;
-		this.target_Graphics_range_max=6;
+		this.target_Graphics_range_max=999;
 		this.target_Memory_rank_range_min=0;
-		this.target_Memory_rank_range_max=6;
+		this.target_Memory_rank_range_max=999;
 		this.target_Resolution_range_min=0;
-		this.target_Resolution_range_max=6;
-		this.target_Price_range_min=0;
-		this.target_Price_range_max=9999;
-		this.target_Screes_size_min=0;
-		this.target_Screes_size_max=9999;
+		this.target_Resolution_range_max=999;
+
+		this.target_Price_range_min=0;      //in rank
+		this.target_Price_range_max=99999;
+
+		this.target_Screes_size_min =0;
+		this.target_Screes_size_max =9999;
+		this.target_Price_sort_seq=1; //going upwards
+		this.price_limit_min=0;
+		this.price_limit_max=9999;
 	}
 
 	public void parseQuery()
@@ -83,6 +90,7 @@ public class QueryProcessor {
 			this.target_Processor_range_min=4;
 			this.target_Graphics_range_min=4;
 			this.target_Memory_rank_range_min=3;
+			this.special_graphic=false;
 		}
 		if((stemmedQuery.contains("photo")||stemmedQuery.contains("video"))&&stemmedQuery.contains("edit"))
 		{
@@ -91,6 +99,7 @@ public class QueryProcessor {
 			this.target_Memory_rank_range_min=3;
 			this.target_Resolution_range_min=1600;
 			this.target_Screes_size_min =13;
+			this.special_graphic=true;
 		}
 
 		//Specific Params
@@ -235,7 +244,7 @@ public class QueryProcessor {
 			if(tmp.RAM_level>=this.target_Memory_rank_range_min&&tmp.RAM_level<=this.target_Memory_rank_range_max)
 			{
 				if(this.target_Memory_rank_range_max==999&&this.target_Memory_rank_range_min!=0)    //only lower limit
-					tmp.computed_score=tmp.computed_score+(tmp.RAM_level-this.target_Memory_rank_range_min)*0.7;
+					tmp.computed_score=tmp.computed_score+(tmp.RAM_level-this.target_Memory_rank_range_min)*0.4;
 				else
 					tmp.computed_score=tmp.computed_score+1;
 			}
@@ -243,7 +252,19 @@ public class QueryProcessor {
 				tmp.computed_score=tmp.computed_score-0.5;
 
 			if(tmp.graphic_level>=this.target_Graphics_range_min&&tmp.graphic_level<=this.target_Graphics_range_max)
-				tmp.computed_score=tmp.computed_score+1;
+			{
+				if(this.target_Graphics_range_max==999&&this.target_Graphics_range_min!=0)    //only lower limit
+				{
+					if(this.special_graphic==false&&tmp.special_use==true)
+						tmp.computed_score=tmp.computed_score-4;
+					else if(this.special_graphic==true&&tmp.special_use==true)
+						tmp.computed_score=tmp.computed_score+2;
+					else
+						tmp.computed_score=tmp.computed_score+(tmp.graphic_level-this.target_Graphics_range_min)*0.7;
+				}
+				else
+					tmp.computed_score=tmp.computed_score+1;
+			}
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 

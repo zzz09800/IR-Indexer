@@ -5,23 +5,24 @@ public class SpecElement {
 	String brand,model;
 	double price;
 	String internal_callsign;
-	int price_level;
+	double price_level;
 
 	String CPU_model;
-	int CPU_level;  // 0 = unassigned, 1 2 3 4 5 increases
+	double CPU_level;  // 0 = unassigned, 1 2 3 4 5 increases
 
 	String RAM_type;
 	int RAM_size;   // in GB
-	int RAM_level;
+	double RAM_level;
 
 	String graphic_model;
-	int graphic_level; // 0 = unassigned, 1 2 3 4 5 increases
+	double graphic_level; // 0 = unassigned, 1 2 3 4 5 increases
+	Boolean special_use;
 
 	String hard_drive_info;
 
 	int screen_resolution_x;
 	int screen_resolution_y;
-	int screes_resolution_level;
+	double screes_resolution_level;
 	double screen_size;
 
 	double computed_score;
@@ -42,6 +43,7 @@ public class SpecElement {
 
 		this.graphic_model="";
 		this.graphic_level=0; // 0 = unassigned, 1 2 3 4 5 increases
+		this.special_use=false;
 
 		this.screen_resolution_x=0;
 		this.screen_resolution_y=0;
