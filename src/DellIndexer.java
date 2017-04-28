@@ -14,10 +14,9 @@ import java.util.HashSet;
 public class DellIndexer {
 	public HashSet<SpecElement> createIndexFromPage(String page_path)
 	{
-		JobRunner runner = new JobRunner();
 		HashSet<SpecElement> res = new HashSet<SpecElement>();
 		res.clear();
-		String model_name;
+		String model_name="";
 		String content="";
 		ArrayList<String> content_array = new ArrayList<String>();
 
@@ -35,11 +34,17 @@ public class DellIndexer {
 
 			model_name=this.getSeriesIndntifier(page_path,content_array);
 			res=this.cosntructSpecElement(content_array);
-
+			//System.out.println(model_name);
 
 		} catch (Exception e) {
 			System.out.println("Exception: " + e);
 			e.printStackTrace();
+		}
+
+		for(SpecElement tmp:res)
+		{
+			tmp.model=model_name;
+			tmp.brand="Dell";
 		}
 
 		return res;
@@ -51,7 +56,7 @@ public class DellIndexer {
 			int i;
 			for(i=0;i<content_array.size();i++)
 			{
-				if(content_array.get(i).startsWith("\\$"))
+				if(content_array.get(i).startsWith("$"))
 				{
 					return content_array.get(i-1).trim();
 				}
@@ -87,11 +92,32 @@ public class DellIndexer {
 				this.setScreenParam(tmp,tokens.get(i+2));
 			}else if(iter_string.trim().startsWith("Video Ca")) {
 				this.setGraphicParam(tmp,tokens.get(i+2));
+			}else if(iter_string.trim().startsWith("Hard Dri")) {
+				this.setHardDriveParam(tmp,tokens.get(i+2));
 			}
 
 		}
 
 		return res;
+	}
+
+	private void setHardDriveParam(SpecElement tmp, String s) {
+		int i;
+		String tester = s.toLowerCase();
+		int spiltter=-1;
+		for(i=1;i<tester.length();i++)
+		{
+			if(tester.charAt(i)>='0'&&tester.charAt(i)<='9')
+			{
+				if((tester.charAt(i-1)>'9'||tester.charAt(i-1)<'0')&&tester.charAt(i-1)!='.')
+					spiltter=i;
+			}
+		}
+
+		if(spiltter==-1)
+			tmp.hard_drive_info=s;
+		else
+			tmp.hard_drive_info=s.substring(0,spiltter);
 	}
 
 	private String hunterLing(String s) {
@@ -119,15 +145,26 @@ public class DellIndexer {
 
 		if(s_lower.contains("nvidia"))
 		{
-			int spiltter = s_lower.lastIndexOf("nvidia",6);
-			tmp.graphic_model=s.substring(0,spiltter);
+			int spiltter = s_lower.indexOf("nvidia",6);
+			if(spiltter!=-1)
+				tmp.graphic_model=s.substring(0,spiltter);
+			else
+				tmp.graphic_model=s;
+			return;
+		}
+
+		if(s_lower.contains("amd"))
+		{
+			tmp.graphic_model=s;
 			return;
 		}
 	}
 
 	private void setScreenParam(SpecElement tmp, String s) {
 		s=s.toLowerCase().replaceAll("\\("," ").replaceAll("\\)"," ").
-				replaceAll("x"," x ").replaceAll("-"," ").replaceAll("\\s+"," ");
+				replaceAll("x"," x ").replaceAll("-"," ").replaceAll("”","").
+				replaceAll("\"","").replaceAll("\\s+"," ");
+
 		String[] tokens = s.split(" ");
 		int i;
 
@@ -187,13 +224,127 @@ public class DellIndexer {
 	private String mutalisk(String s) {
 		int i;
 		String res="";
+		int num_count=0;
 		for(i=0;i<s.length();i++)
 		{
-			if(s.charAt(i)>='0'&&s.charAt(i)<='9')
+			if(s.charAt(i)>='0'&&s.charAt(i)<='9'&&num_count==0)
+			{
 				res=res+s.charAt(i);
-			if(s.charAt(i)=='D')
+				num_count++;
+			}
+			if(s.charAt(i)=='D'||s.charAt(i)=='R')
 				res=res+s.charAt(i);
 		}
 		return res;
+	}
+
+
+	public HashSet<SpecElement> createIndexFromPage_work(String page_path)
+	{
+		HashSet<SpecElement> res = new HashSet<SpecElement>();
+		res.clear();
+		String model_name="";
+		String content="";
+		ArrayList<String> content_array = new ArrayList<String>();
+
+		try{
+			File page_in = new File(page_path);
+			FileReader fileReader = new FileReader(page_in);
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+			String tmp;
+			while((tmp=bufferedReader.readLine())!=null)
+			{
+				content=content+"\n"+tmp;
+				content_array.add(tmp);
+			}
+
+			model_name=this.getSeriesIndntifier_work(page_path,content_array);
+			if(!model_name.equals(""))
+				res=this.cosntructSpecElement_work(model_name,content_array);
+			//System.out.println(model_name);
+
+		} catch (Exception e) {
+			System.out.println("Exception: " + e);
+			e.printStackTrace();
+		}
+
+		for(SpecElement tmp:res)
+		{
+			tmp.model=model_name;
+			tmp.brand="Dell";
+		}
+
+		return res;
+	}
+
+	private HashSet<SpecElement> cosntructSpecElement_work(String model_name, ArrayList<String> tokens) {
+		int i,j,k;
+
+		HashSet<SpecElement> res = new HashSet<SpecElement>();
+		SpecElement tmp = new SpecElement();
+
+		for(i=0;i<tokens.size();i++)
+		{
+			String iter_string = tokens.get(i).trim();
+			if(iter_string.contains(model_name)) {
+				tmp = new SpecElement();
+				tmp.price=Float.parseFloat(iter_string.split("\\$")[1].replaceAll(",",""));
+			}
+			else if(iter_string.toLowerCase().equals("processor")) {
+				tmp.CPU_model=tokens.get(i+1);
+			}
+			else if (iter_string.toLowerCase().startsWith("memory")){
+
+			}
+
+		}
+
+		return res;
+	}
+
+	private String getSeriesIndntifier_work(String page_path, ArrayList<String> content_array) {
+		int i;
+		String res;
+		if(page_path.contains("inspiron"))
+		{
+			for(i=0;i<content_array.size();i++)
+			{
+				String tester = content_array.get(i);
+				if(tester.toLowerCase().contains("inspiron")&&tester.contains("$"))
+				{
+					res=tester.split("$")[0].trim();
+					return res;
+				}
+			}
+		}
+
+		if(page_path.contains("latitude"))
+		{
+			for(i=0;i<content_array.size();i++)
+			{
+				String tester = content_array.get(i);
+				if(tester.toLowerCase().contains("latitude")&&tester.contains("$"))
+				{
+					res=tester.split("$")[0].trim();
+					return res;
+				}
+			}
+		}
+
+		if(page_path.contains("precision"))
+		{
+			for(i=0;i<content_array.size();i++)
+			{
+				String tester = content_array.get(i);
+				if(tester.toLowerCase().contains("precision")&&tester.contains("$"))
+				{
+					res=tester.split("$")[0].trim();
+					return res;
+				}
+			}
+		}
+
+		return "";
 	}
 }
