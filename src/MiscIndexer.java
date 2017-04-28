@@ -97,15 +97,18 @@ public class MiscIndexer {
 			}
 		}
 
+		int j=0;
 		for(i=0;i<processors.size();i++)
 		{
 			SpecElement constructElement = new SpecElement();
 			constructElement.model=models.get(i);
-			constructElement.price=Float.parseFloat(prices.get(i).replaceAll(" ","").replaceAll("\\$",""));
+			constructElement.price=Float.parseFloat(prices.get(j).replaceAll(" ","").replaceAll("\\$",""));
+			j=j+2;
 			constructElement.CPU_model=processors.get(i);
 			constructElement.graphic_model=graphics.get(i);
 			constructElement.RAM_type=memory.get(i).split(" ")[1];
 			constructElement.RAM_size=Integer.parseInt(memory.get(i).split(" ")[0].toLowerCase().replaceAll("gb",""));
+			constructElement.hard_drive_info=hardDrive.get(i);
 			this.setScreenParam(constructElement,display.get(i));
 			res.add(constructElement);
 		}

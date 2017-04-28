@@ -86,6 +86,7 @@ public class main {
 			System.out.println(tmp.RAM_size + " GB " + tmp.RAM_type);
 			System.out.printf("%4.1f", tmp.screen_size);
 			System.out.println("\" " + tmp.screen_resolution_x + " x " + tmp.screen_resolution_y);
+			System.out.println(tmp.hard_drive_info);
 			System.out.println(tmp.price);
 			System.out.println();
 		}
