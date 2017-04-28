@@ -195,7 +195,8 @@ public class DellIndexer {
 	}
 
 	private void setMemoryParam(SpecElement tmp, String s) {
-		s=s.toLowerCase().replaceAll("gb"," gb").replaceAll("mhz"," mhz").replaceAll("\\s+"," ");
+		s=s.toLowerCase().replaceAll("gb"," gb").replaceAll("mhz"," mhz").
+				replaceAll("g"," g").replaceAll("\\s+"," ");
 		String[] tokens = s.split(" ");
 		int i;
 		int set_counter=0;
@@ -271,8 +272,15 @@ public class DellIndexer {
 
 		for(SpecElement tmp:res)
 		{
-			tmp.model=model_name;
+			tmp.model=model_name.replaceAll("New","").trim();
 			tmp.brand="Dell";
+			if(tmp.graphic_model.equals(""))
+			{
+				if(tmp.CPU_model.toLowerCase().contains("intel"))
+					tmp.graphic_model="Intel Intergated Graphics";
+				if(tmp.CPU_model.toLowerCase().contains("amd"))
+					tmp.graphic_model="AMD Intergated Graphics";
+			}
 		}
 
 		return res;
@@ -283,24 +291,43 @@ public class DellIndexer {
 
 		HashSet<SpecElement> res = new HashSet<SpecElement>();
 		SpecElement tmp = new SpecElement();
+		Boolean started=false;
 
 		for(i=0;i<tokens.size();i++)
 		{
 			String iter_string = tokens.get(i).trim();
-			if(iter_string.contains(model_name)) {
+			if(iter_string.contains(model_name)&&this.hydralisk(iter_string)) {
+				if(started==true)
+					res.add(tmp);
 				tmp = new SpecElement();
 				tmp.price=Float.parseFloat(iter_string.split("\\$")[1].replaceAll(",",""));
+				started=true;
 			}
-			else if(iter_string.toLowerCase().equals("processor")) {
+			else if(iter_string.toLowerCase().equals("processor")&&started==true) {
 				tmp.CPU_model=tokens.get(i+1);
 			}
-			else if (iter_string.toLowerCase().startsWith("memory")){
-
+			else if (iter_string.toLowerCase().startsWith("memory")&&started==true){
+				this.setMemoryParam(tmp,iter_string.replaceAll("Memory[0-3]"," ").trim());
 			}
-
+			else if(iter_string.toLowerCase().startsWith("hard dri")&&started==true){
+				tmp.hard_drive_info=iter_string.replaceAll("Hard Drive","").trim();
+			}
+			else if(iter_string.toLowerCase().startsWith("graphics car")&&started==true) {
+				tmp.graphic_model=iter_string.replaceAll("Graphics Card","").trim();
+			}
+			else if(iter_string.toLowerCase().startsWith("display")&&started==true) {
+				this.setScreenParam(tmp,iter_string.replaceAll("Display"," ").replaceAll("\\s+"," ").trim());
+			}
 		}
 
 		return res;
+	}
+
+	private boolean hydralisk(String iter_string) {
+		String tester=iter_string.toLowerCase();
+		if(tester.contains("save")||tester.contains("limited time")||tester.contains("plus"))
+			return false;
+		return true;
 	}
 
 	private String getSeriesIndntifier_work(String page_path, ArrayList<String> content_array) {
@@ -313,7 +340,7 @@ public class DellIndexer {
 				String tester = content_array.get(i);
 				if(tester.toLowerCase().contains("inspiron")&&tester.contains("$"))
 				{
-					res=tester.split("$")[0].trim();
+					res=tester.split("\\$")[0].trim();
 					return res;
 				}
 			}
@@ -326,7 +353,7 @@ public class DellIndexer {
 				String tester = content_array.get(i);
 				if(tester.toLowerCase().contains("latitude")&&tester.contains("$"))
 				{
-					res=tester.split("$")[0].trim();
+					res=tester.split("\\$")[0].trim();
 					return res;
 				}
 			}
@@ -339,7 +366,7 @@ public class DellIndexer {
 				String tester = content_array.get(i);
 				if(tester.toLowerCase().contains("precision")&&tester.contains("$"))
 				{
-					res=tester.split("$")[0].trim();
+					res=tester.split("\\$")[0].trim();
 					return res;
 				}
 			}
