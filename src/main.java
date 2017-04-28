@@ -70,7 +70,7 @@ public class main {
 		}
 		System.out.println(i);*/
 
-		QueryProcessor queryProcessor = new QueryProcessor("laptops with fast processor and under 1200");
+		QueryProcessor queryProcessor = new QueryProcessor("Gaming laptops");
 		queryProcessor.parseQuery();
 		ArrayList<SpecElement> filtered=queryProcessor.filteredSearch(res);
 

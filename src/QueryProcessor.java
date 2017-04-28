@@ -78,7 +78,7 @@ public class QueryProcessor {
 		Stemmer stemmer = new Stemmer();
 		this.stemmedQuery=stemmer.stem(inputQuery);
 		//Rough Estimates
-		if(stemmedQuery.contains("game"))
+		if(stemmedQuery.contains("gam"))
 		{
 			this.target_Processor_range_min=4;
 			this.target_Graphics_range_min=4;
