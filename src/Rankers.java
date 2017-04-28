@@ -193,8 +193,8 @@ public class Rankers {
 		});
 
 		double xl_cut=results_array.get((int)(results.size()*0.05)).price;
-		double l_cut=results_array.get((int)(results.size()*0.15)).price;
-		double m_cut=results_array.get((int)(results.size()*0.50)).price;
+		double l_cut=results_array.get((int)(results.size()*0.25)).price;
+		double m_cut=results_array.get((int)(results.size()*0.55)).price;
 
 		if(element.price>=xl_cut)
 			return 4;

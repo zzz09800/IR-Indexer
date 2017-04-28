@@ -292,19 +292,31 @@ public class DellIndexer {
 		HashSet<SpecElement> res = new HashSet<SpecElement>();
 		SpecElement tmp = new SpecElement();
 		Boolean started=false;
+		String processor_reserve="";
+		String display_reserve="";
 
 		for(i=0;i<tokens.size();i++)
 		{
 			String iter_string = tokens.get(i).trim();
 			if(iter_string.contains(model_name)&&this.hydralisk(iter_string)) {
-				if(started==true)
+				if(started==true){
+					if(tmp.RAM_size==0&&!processor_reserve.equals("")){
+						this.setMemoryParam(tmp, processor_reserve);
+					}
+					if(tmp.screen_size==0)
+					{
+						this.guessScreensize(tmp,model_name);
+						this.setScreenParam_retry(tmp,display_reserve);
+					}
 					res.add(tmp);
+				}
 				tmp = new SpecElement();
 				tmp.price=Float.parseFloat(iter_string.split("\\$")[1].replaceAll(",",""));
 				started=true;
 			}
 			else if(iter_string.toLowerCase().equals("processor")&&started==true) {
 				tmp.CPU_model=tokens.get(i+1);
+				processor_reserve=tokens.get(i+1);
 			}
 			else if (iter_string.toLowerCase().startsWith("memory")&&started==true){
 				this.setMemoryParam(tmp,iter_string.replaceAll("Memory[0-3]"," ").trim());
@@ -317,10 +329,69 @@ public class DellIndexer {
 			}
 			else if(iter_string.toLowerCase().startsWith("display")&&started==true) {
 				this.setScreenParam(tmp,iter_string.replaceAll("Display"," ").replaceAll("\\s+"," ").trim());
+				display_reserve=iter_string.replaceAll("Display"," ").replaceAll("\\s+"," ").trim();
 			}
 		}
 
 		return res;
+	}
+
+	private void setScreenParam_retry(SpecElement tmp, String s) {
+		s=s.toLowerCase().replaceAll("\\("," ").replaceAll("\\)"," ").
+				replaceAll("x"," x ").replaceAll("-"," ").replaceAll("”","").
+				replaceAll("\"","").replaceAll("\\s+"," ");
+
+		String[] tokens = s.split(" ");
+		int i;
+
+		int set_counter=0;
+
+		for(i=0;i<tokens.length;i++)
+		{
+			if(set_counter==2)
+				return;
+			if(StringUtils.isNumeric(tokens[i].replaceAll("\\.",""))) {
+				float tester = Float.parseFloat(tokens[i]);
+				if(tester>1000)
+				{
+					tmp.screen_resolution_x=(int)tester;
+					set_counter++;
+				}
+				else if(set_counter==1&&tester>600)
+				{
+					tmp.screen_resolution_y=(int)tester;
+					set_counter++;
+				}
+			}
+		}
+	}
+
+	private void guessScreensize(SpecElement tmp, String model_name) {
+		String[] tokens = model_name.split(" ");
+		int i;
+		for(i=0;i<tokens.length;i++)
+		{
+			if(StringUtils.isNumeric(tokens[i]))
+			{
+				if(tokens[i].charAt(1)=='2'){
+					tmp.screen_size=12.5;
+					return;
+				}
+				if(tokens[i].charAt(1)=='3'){
+					tmp.screen_size=13.3;
+					return;
+				}
+				if(tokens[i].charAt(1)=='5'){
+					tmp.screen_size=15.6;
+					return;
+				}
+				if(tokens[i].charAt(1)=='7'){
+					tmp.screen_size=17.3;
+					return;
+				}
+
+			}
+		}
 	}
 
 	private boolean hydralisk(String iter_string) {
