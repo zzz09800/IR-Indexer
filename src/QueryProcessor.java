@@ -30,6 +30,8 @@ public class QueryProcessor {
 
 	boolean special_graphic=false;
 	boolean price_range_advised=false;
+	boolean screen_size_range_advised=false;
+	boolean scrren_size_limit_effective=false;
 
 	String stemmedQuery;
 	ArrayList<QueryTokens> queryTokens;
@@ -78,6 +80,10 @@ public class QueryProcessor {
 		this.target_Price_sort_seq=1; //going upwards
 		this.price_limit_min=0;
 		this.price_limit_max=9999;
+
+		screen_size_range_advised=false;
+		scrren_size_limit_effective=false;
+
 	}
 
 	public void parseQuery()
@@ -111,6 +117,18 @@ public class QueryProcessor {
 			this.target_Resolution_range_min=1600;
 			this.target_Screes_size_min=13;
 			this.special_graphic=true;
+		}
+
+		if(stemmedQuery.contains("stud"))
+		{
+			this.target_Processor_range_min=2;
+			this.target_Memory_rank_range_min=1;
+			this.target_Screes_size_min=13;
+			this.target_Screes_size_max=15;
+			this.target_Price_range_max=2;
+			this.price_range_advised=true;
+			this.screen_size_range_advised=true;
+			this.scrren_size_limit_effective=false;
 		}
 
 		//Specific Params
@@ -155,6 +173,7 @@ public class QueryProcessor {
 			this.target_Memory_rank_range_min=2;
 		}
 
+
 		//Extract Spec requirements
 		int processorNodeIndex = runner.wordLocate(this.queryTokens,"cpu");
 		if(processorNodeIndex==-1)
@@ -164,6 +183,11 @@ public class QueryProcessor {
 			if(processorAdjs.contains("fast"))
 			{
 				this.target_Processor_range_min=4;
+			}else if(processorAdjs.contains("slow"))
+			{
+				this.target_Processor_range_max=3;
+				this.target_Price_range_max=3;
+				this.price_range_advised=true;
 			}
 		}
 
@@ -176,6 +200,16 @@ public class QueryProcessor {
 				this.target_Processor_range_min = 3;
 			} else if (memoryAdjs.contains("small")) {
 				this.target_Processor_range_max = 2;
+			}
+		}
+
+		int graphicNodeIndex = runner.wordLocate(this.queryTokens,"graphic");
+		if(graphicNodeIndex==-1)
+			graphicNodeIndex = runner.wordLocate(this.queryTokens,"gpu");
+		if(graphicNodeIndex!=-1) {
+			HashSet<String> graphicAdjs = runner.extractJJs(this.queryTokens, graphicNodeIndex);
+			if (graphicAdjs.contains("fast")) {
+				this.target_Graphics_range_min=3;
 			}
 		}
 
@@ -198,7 +232,7 @@ public class QueryProcessor {
 		Boolean setfalg=false;
 		for(i=0;i<this.queryTokens.size()-1;i++)
 		{
-			if(this.queryTokens.get(i).content.equals("higher")&&this.queryTokens.get(i+1).content.equals("than")&&this.queryTokens.get(i+2).posTag.equals("CD"))
+			if(this.queryTokens.get(i).content.equals("higher")&&(this.queryTokens.get(i+1).posTag.equals("CD")||this.queryTokens.get(i+2).posTag.equals("CD")))
 			{
 				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+2).content);
 				setfalg=true;
@@ -234,8 +268,8 @@ public class QueryProcessor {
 
 			if(this.queryTokens.get(i).content.equals("around")&&this.queryTokens.get(i+1).posTag.equals("CD"))
 			{
-				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+1).content)-200;
-				this.price_limit_max=Float.parseFloat(this.queryTokens.get(i+1).content)+200;
+				this.price_limit_min=Float.parseFloat(this.queryTokens.get(i+1).content)-150;
+				this.price_limit_max=Float.parseFloat(this.queryTokens.get(i+1).content)+150;
 				setfalg=true;
 				return setfalg;
 			}
@@ -262,8 +296,11 @@ public class QueryProcessor {
 			tmp.computed_score=0;
 			if(tmp.CPU_level>=this.target_Processor_range_min&&tmp.CPU_level<=this.target_Processor_range_max)
 			{
-				if(this.target_Processor_range_max==999&&this.target_Processor_range_min!=0)    //only lower limit
+				//if(this.target_Processor_range_max==999&&this.target_Processor_range_min!=0)    //only lower limit
+				if(this.target_Processor_range_max==999) //no upper limit
 					tmp.computed_score=tmp.computed_score+(tmp.CPU_level-this.target_Processor_range_min)*0.7;
+				else if(this.target_Price_range_min==0&&this.target_Processor_range_max!=999)
+					tmp.computed_score=tmp.computed_score+(this.target_Processor_range_max-tmp.CPU_level)*3.0;
 				else
 					tmp.computed_score=tmp.computed_score+1;
 			}
@@ -272,7 +309,8 @@ public class QueryProcessor {
 
 			if(tmp.RAM_level>=this.target_Memory_rank_range_min&&tmp.RAM_level<=this.target_Memory_rank_range_max)
 			{
-				if(this.target_Memory_rank_range_max==999&&this.target_Memory_rank_range_min!=0)    //only lower limit
+				//if(this.target_Memory_rank_range_max==999&&this.target_Memory_rank_range_min!=0)    //only lower limit
+				if(this.target_Memory_rank_range_max==999)  //no upper limit
 					tmp.computed_score=tmp.computed_score+(tmp.RAM_level-this.target_Memory_rank_range_min)*0.4;
 				else
 					tmp.computed_score=tmp.computed_score+1;
@@ -282,12 +320,13 @@ public class QueryProcessor {
 
 			if(tmp.graphic_level>=this.target_Graphics_range_min&&tmp.graphic_level<=this.target_Graphics_range_max)
 			{
-				if(this.target_Graphics_range_max==999&&this.target_Graphics_range_min!=0)    //only lower limit
+				//if(this.target_Graphics_range_max==999&&this.target_Graphics_range_min!=0)    //only lower limit
+				if(this.target_Graphics_range_max==999)  //no upper limit
 				{
 					if(this.special_graphic==false&&tmp.special_use==true)
 						tmp.computed_score=tmp.computed_score-2;
 					else if(this.special_graphic==true&&tmp.special_use==true)
-						tmp.computed_score=tmp.computed_score+2;
+						tmp.computed_score=tmp.computed_score+4;
 					else
 						tmp.computed_score=tmp.computed_score+(tmp.graphic_level-this.target_Graphics_range_min)*0.7;
 				}
@@ -297,13 +336,20 @@ public class QueryProcessor {
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 
+			if(this.screen_size_range_advised){
+				if(tmp.screen_size>=this.target_Screes_size_min&&tmp.screen_size<=this.target_Screes_size_max)
+					tmp.computed_score=tmp.computed_score+1;
+				else
+					tmp.computed_score=tmp.computed_score-0.5;
+			}
+
 			if(tmp.screes_resolution_level>=this.target_Resolution_range_min&&tmp.screes_resolution_level<=this.target_Resolution_range_max)
 				tmp.computed_score=tmp.computed_score+1;
 			else
 				tmp.computed_score=tmp.computed_score-0.5;
 			if(price_range_advised&&!this.price_limit_effective){
 				if(tmp.price_level>=this.target_Price_range_min&&tmp.price_level<=this.target_Price_range_max) {
-					tmp.computed_score=tmp.computed_score+3.0;
+					tmp.computed_score=tmp.computed_score+4.0;
 				}
 				else
 					tmp.computed_score=tmp.computed_score-Math.max(tmp.price_level-this.target_Price_range_max,this.target_Price_range_min-tmp.price_level)*4.5;
@@ -313,9 +359,23 @@ public class QueryProcessor {
 			else
 				tmp.computed_score=tmp.computed_score-1.5;*/
 
-			if(this.price_limit_effective)
+			if(this.price_limit_effective&&!this.scrren_size_limit_effective)
 			{
 				if(tmp.price>=price_limit_min&&tmp.price<=price_limit_max)
+				{
+					searchResults.add(tmp);
+				}
+			}
+			else if(!this.price_limit_effective&&this.scrren_size_limit_effective)
+			{
+				if(tmp.screen_size>=target_Screes_size_min&&tmp.price<=target_Screes_size_max)
+				{
+					searchResults.add(tmp);
+				}
+			}
+			else if(this.price_limit_effective&&this.scrren_size_limit_effective)
+			{
+				if(tmp.screen_size>=target_Screes_size_min&&tmp.price<=target_Screes_size_max&&tmp.price>=price_limit_min&&tmp.price<=price_limit_max)
 				{
 					searchResults.add(tmp);
 				}

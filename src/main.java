@@ -3,6 +3,7 @@ import edu.stanford.nlp.simple.Sentence;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Scanner;
 
 /**
  * Created by andrew on 4/21/17.
@@ -72,23 +73,30 @@ public class main {
 		}
 		System.out.println(i);*/
 
-		QueryProcessor queryProcessor = new QueryProcessor("laptops for photo editing around 1000");
-		queryProcessor.parseQuery();
-		ArrayList<SpecElement> filtered=queryProcessor.filteredSearch(res);
+		Scanner clin = new Scanner(System.in);
 
-		for(i=0;i<40;i++)
-		{
-			SpecElement tmp = filtered.get(i);
-			System.out.println(tmp.brand);
-			System.out.println(tmp.model);
-			System.out.println(tmp.CPU_model);
-			System.out.println(tmp.graphic_model);
-			System.out.println(tmp.RAM_size + " GB " + tmp.RAM_type);
-			System.out.printf("%4.1f", tmp.screen_size);
-			System.out.println("\" " + tmp.screen_resolution_x + " x " + tmp.screen_resolution_y);
-			System.out.println(tmp.hard_drive_info);
-			System.out.println(tmp.price);
-			System.out.println();
+		while(true){
+			System.out.print("Query Input:");
+			String inputQuery = clin.nextLine();
+			QueryProcessor queryProcessor = new QueryProcessor(inputQuery);
+			queryProcessor.parseQuery();
+			ArrayList<SpecElement> filtered=queryProcessor.filteredSearch(res);
+
+			for(i=0;i<10;i++)
+			{
+				SpecElement tmp = filtered.get(i);
+				System.out.println(tmp.brand);
+				System.out.println(tmp.model);
+				System.out.println(tmp.CPU_model);
+				System.out.println(tmp.graphic_model);
+				System.out.println(tmp.RAM_size + " GB " + tmp.RAM_type);
+				System.out.printf("%4.1f", tmp.screen_size);
+				System.out.println("\" " + tmp.screen_resolution_x + " x " + tmp.screen_resolution_y);
+				if(tmp.hard_drive_info!=null)
+					System.out.println(tmp.hard_drive_info);
+				System.out.println(tmp.price);
+				System.out.println();
+			}
 		}
 	}
 }

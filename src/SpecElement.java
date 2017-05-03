@@ -16,7 +16,7 @@ public class SpecElement {
 
 	String graphic_model;
 	double graphic_level; // 0 = unassigned, 1 2 3 4 5 increases
-	Boolean special_use;
+	boolean special_use;
 
 	String hard_drive_info;
 
