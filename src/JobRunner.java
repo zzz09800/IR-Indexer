@@ -1,3 +1,5 @@
+import org.apache.commons.lang3.math.NumberUtils;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -163,6 +165,10 @@ public class JobRunner {
 
 		if(index==0)
 			return res;
+
+		i=index-1;
+		if(queryTokens.get(i).content.equals("i7")||queryTokens.get(i).content.equals("i5")||queryTokens.get(i).content.equals("i3"))
+			res.add(queryTokens.get(i).content);
 
 		for(i=index-1;i>=0&&!queryTokens.get(i).posTag.startsWith("NN");i--)
 		{

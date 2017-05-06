@@ -47,7 +47,7 @@ public class Rankers {
 		int model_number;
 
 		if(verifier_input.contains("dual"))
-			multipler=1.4;
+			multipler=1.2;
 
 		if(verifier_input.contains("intel")){
 			return 1;

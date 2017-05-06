@@ -173,6 +173,15 @@ public class QueryProcessor {
 			this.target_Memory_rank_range_min=2;
 		}
 
+		if(prefixAdjs.contains("small")){
+			this.scrren_size_limit_effective=true;
+			this.target_Screes_size_max=14;
+		}else if(prefixAdjs.contains("large"))
+		{
+			this.scrren_size_limit_effective=true;
+			this.target_Price_range_min=15;
+		}
+
 
 		//Extract Spec requirements
 		int processorNodeIndex = runner.wordLocate(this.queryTokens,"cpu");
@@ -188,6 +197,14 @@ public class QueryProcessor {
 				this.target_Processor_range_max=3;
 				this.target_Price_range_max=3;
 				this.price_range_advised=true;
+			}else if(processorAdjs.contains("i7")){
+				this.target_Processor_range_min=5;
+			}else if(processorAdjs.contains("i5")){
+				this.target_Processor_range_min=(float)4.0;
+				this.target_Processor_range_max=(float)4.5;
+			}else if(processorAdjs.contains("i3")){
+				this.target_Processor_range_min=(float)3.0;
+				this.target_Processor_range_max=(float)3.0;
 			}
 		}
 
@@ -222,6 +239,12 @@ public class QueryProcessor {
 				this.target_Resolution_range_min = 3;
 			}
 		}
+
+		/*int screenSizeNodeIndex = runner.wordLocate(this.queryTokens,"screen");
+		if(screenSizeNodeIndex!=-1) {
+			HashSet<String> screenSizeNodeIndexAdjs = runner.extractJJs(this.queryTokens, screenSizeNodeIndex);
+
+		}*/
 
 		this.price_limit_effective=this.setPriceFilter();
 	}
@@ -302,10 +325,10 @@ public class QueryProcessor {
 				else if(this.target_Price_range_min==0&&this.target_Processor_range_max!=999)
 					tmp.computed_score=tmp.computed_score+(this.target_Processor_range_max-tmp.CPU_level)*3.0;
 				else
-					tmp.computed_score=tmp.computed_score+1;
+					tmp.computed_score=tmp.computed_score+4;
 			}
 			else
-				tmp.computed_score=tmp.computed_score-0.5;
+				tmp.computed_score=tmp.computed_score-2.0;
 
 			if(tmp.RAM_level>=this.target_Memory_rank_range_min&&tmp.RAM_level<=this.target_Memory_rank_range_max)
 			{
@@ -316,7 +339,7 @@ public class QueryProcessor {
 					tmp.computed_score=tmp.computed_score+1;
 			}
 			else
-				tmp.computed_score=tmp.computed_score-0.5;
+				tmp.computed_score=tmp.computed_score-2.0;
 
 			if(tmp.graphic_level>=this.target_Graphics_range_min&&tmp.graphic_level<=this.target_Graphics_range_max)
 			{
@@ -334,19 +357,19 @@ public class QueryProcessor {
 					tmp.computed_score=tmp.computed_score+1;
 			}
 			else
-				tmp.computed_score=tmp.computed_score-0.5;
+				tmp.computed_score=tmp.computed_score-2.0;
 
 			if(this.screen_size_range_advised){
 				if(tmp.screen_size>=this.target_Screes_size_min&&tmp.screen_size<=this.target_Screes_size_max)
 					tmp.computed_score=tmp.computed_score+1;
 				else
-					tmp.computed_score=tmp.computed_score-0.5;
+					tmp.computed_score=tmp.computed_score-2.0;
 			}
 
 			if(tmp.screes_resolution_level>=this.target_Resolution_range_min&&tmp.screes_resolution_level<=this.target_Resolution_range_max)
 				tmp.computed_score=tmp.computed_score+1;
 			else
-				tmp.computed_score=tmp.computed_score-0.5;
+				tmp.computed_score=tmp.computed_score-2.0;
 			if(price_range_advised&&!this.price_limit_effective){
 				if(tmp.price_level>=this.target_Price_range_min&&tmp.price_level<=this.target_Price_range_max) {
 					tmp.computed_score=tmp.computed_score+4.0;
@@ -361,21 +384,21 @@ public class QueryProcessor {
 
 			if(this.price_limit_effective&&!this.scrren_size_limit_effective)
 			{
-				if(tmp.price>=price_limit_min&&tmp.price<=price_limit_max)
+				if(tmp.price>=this.price_limit_min&&tmp.price<=this.price_limit_max)
 				{
 					searchResults.add(tmp);
 				}
 			}
 			else if(!this.price_limit_effective&&this.scrren_size_limit_effective)
 			{
-				if(tmp.screen_size>=target_Screes_size_min&&tmp.price<=target_Screes_size_max)
+				if(tmp.screen_size>=this.target_Screes_size_min&&tmp.screen_size<=this.target_Screes_size_max)
 				{
 					searchResults.add(tmp);
 				}
 			}
 			else if(this.price_limit_effective&&this.scrren_size_limit_effective)
 			{
-				if(tmp.screen_size>=target_Screes_size_min&&tmp.price<=target_Screes_size_max&&tmp.price>=price_limit_min&&tmp.price<=price_limit_max)
+				if(tmp.screen_size>=this.target_Screes_size_min&&tmp.screen_size<=this.target_Screes_size_max&&tmp.price>=this.price_limit_min&&tmp.price<=this.price_limit_max)
 				{
 					searchResults.add(tmp);
 				}
